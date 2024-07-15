@@ -1,0 +1,649 @@
+[1mdiff --git a/Bomjara/Bomjara.pro b/Bomjara/Bomjara.pro[m
+[1mindex 588c24e..83a206f 100644[m
+[1m--- a/Bomjara/Bomjara.pro[m
+[1m+++ b/Bomjara/Bomjara.pro[m
+[36m@@ -19,8 +19,3 @@[m [mHEADERS += \[m
+ qnx: target.path = /tmp/$${TARGET}/bin[m
+ else: unix:!android: target.path = /opt/$${TARGET}/bin[m
+ !isEmpty(target.path): INSTALLS += target[m
+[31m-[m
+[31m-DISTFILES +=[m
+[31m-[m
+[31m-RESOURCES += \[m
+[31m-    ../Images/Images.qrc[m
+[1mdiff --git a/Bomjara/Pot.txt b/Bomjara/Pot.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_0_shared_MinGW_w64_MINGW64_MSYS2-Debug/Stats.txt b/Bomjara/build/Desktop_Qt_6_7_0_shared_MinGW_w64_MINGW64_MSYS2-Debug/Stats.txt[m
+[1mdeleted file mode 100644[m
+[1mindex de22e38..0000000[m
+[1m--- a/Bomjara/build/Desktop_Qt_6_7_0_shared_MinGW_w64_MINGW64_MSYS2-Debug/Stats.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-R1000+D100+H100+F100+A20[m
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QApplication.6399CA1A47987B75.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QApplication.6399CA1A47987B75.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..eb76884[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QApplication.6399CA1A47987B75.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QMainWindow.032003194E13CB75.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QMainWindow.032003194E13CB75.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3789300[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QMainWindow.032003194E13CB75.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/__stddef_max_align_t.h.10252374CFB53026.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/__stddef_max_align_t.h.10252374CFB53026.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e5d0805[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/__stddef_max_align_t.h.10252374CFB53026.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw.h.CEE86047F9137794.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw.h.CEE86047F9137794.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..288f434[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw.h.CEE86047F9137794.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_ddk.h.E4841B5E4F4FC597.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_ddk.h.E4841B5E4F4FC597.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d9db204[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_ddk.h.E4841B5E4F4FC597.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_mac.h.A55BCDD9DC174D5F.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_mac.h.A55BCDD9DC174D5F.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ac2ba2e[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_mac.h.A55BCDD9DC174D5F.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_off_t.h.142E500D53AF2510.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_off_t.h.142E500D53AF2510.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e30db7c[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_off_t.h.142E500D53AF2510.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_secapi.h.7EC51B73D8CA5862.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_secapi.h.7EC51B73D8CA5862.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..77ad7ec[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_secapi.h.7EC51B73D8CA5862.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_stat64.h.C9B81233AA1AAC10.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_stat64.h.C9B81233AA1AAC10.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..acd1f1c[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_stat64.h.C9B81233AA1AAC10.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_timeval.h.BA9F127AE06430C7.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_timeval.h.BA9F127AE06430C7.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..469107e[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_timeval.h.BA9F127AE06430C7.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/algorithm.0DB360839DC4E08E.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/algorithm.0DB360839DC4E08E.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e5f095d[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/algorithm.0DB360839DC4E08E.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/algorithmfwd.h.AEC7247466538E4D.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/algorithmfwd.h.AEC7247466538E4D.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5d4d1d3[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/algorithmfwd.h.AEC7247466538E4D.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/align.h.282D295722465DBE.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/align.h.282D295722465DBE.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e237a47[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/align.h.282D295722465DBE.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/aligned_buffer.h.22893802C1D45243.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/aligned_buffer.h.22893802C1D45243.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..92bd144[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/aligned_buffer.h.22893802C1D45243.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/alloc_traits.h.3DE9C77209A6F12A.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/alloc_traits.h.3DE9C77209A6F12A.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ff67fd5[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/alloc_traits.h.3DE9C77209A6F12A.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/alloc_traits.h.9E63C0337DAE7236.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/alloc_traits.h.9E63C0337DAE7236.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..93b24c0[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/alloc_traits.h.9E63C0337DAE7236.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/allocated_ptr.h.440B379B8259C477.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/allocated_ptr.h.440B379B8259C477.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dd3efce[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/allocated_ptr.h.440B379B8259C477.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/allocator.h.CDC420F8A204DB1D.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/allocator.h.CDC420F8A204DB1D.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2222c31[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/allocator.h.CDC420F8A204DB1D.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/array.2D1B9C5D86048DBC.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/array.2D1B9C5D86048DBC.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ae9ad9a[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/array.2D1B9C5D86048DBC.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/assert.h.EF0B91F233D678B9.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/assert.h.EF0B91F233D678B9.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..665b218[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/assert.h.EF0B91F233D678B9.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/assertions.h.5B69A11FBAFAE850.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/assertions.h.5B69A11FBAFAE850.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ad8b511[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/assertions.h.5B69A11FBAFAE850.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic.0F2D1D3A9E555BA1.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic.0F2D1D3A9E555BA1.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..21ece64[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic.0F2D1D3A9E555BA1.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_base.h.4434B59F6966FB29.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_base.h.4434B59F6966FB29.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ebd0950[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_base.h.4434B59F6966FB29.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_lockfree_defines.h.B4630A31F1C996D9.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_lockfree_defines.h.B4630A31F1C996D9.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bde7792[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_lockfree_defines.h.B4630A31F1C996D9.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_word.h.E8F7D1BC87B89AA5.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_word.h.E8F7D1BC87B89AA5.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d81e972[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_word.h.E8F7D1BC87B89AA5.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomicity.h.17FF0B943CABBDCB.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomicity.h.17FF0B943CABBDCB.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9e32b07[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomicity.h.17FF0B943CABBDCB.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/auto_ptr.h.B2C4D73A7805467B.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/auto_ptr.h.B2C4D73A7805467B.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7e89c39[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/auto_ptr.h.B2C4D73A7805467B.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_string.h.5FFA785B849B0B4E.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_string.h.5FFA785B849B0B4E.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..850998b[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_string.h.5FFA785B849B0B4E.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_string.tcc.0829788A5DE74ACC.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_string.tcc.0829788A5DE74ACC.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8ca72e0[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_string.tcc.0829788A5DE74ACC.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bessel_function.tcc.75805A51411C4346.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bessel_function.tcc.75805A51411C4346.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ccedc44[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bessel_function.tcc.75805A51411C4346.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/beta_function.tcc.9433CE8B0C33301A.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/beta_function.tcc.9433CE8B0C33301A.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3aed210[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/beta_function.tcc.9433CE8B0C33301A.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/binders.h.B85CBD859F108043.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/binders.h.B85CBD859F108043.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7c99cc1[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/binders.h.B85CBD859F108043.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bit.A24B958331403163.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bit.A24B958331403163.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fbc6fe2[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bit.A24B958331403163.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++allocator.h.66990A1D7AAD855E.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++allocator.h.66990A1D7AAD855E.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ee51377[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++allocator.h.66990A1D7AAD855E.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++config.h.2C21DC0567FFF1E6.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++config.h.2C21DC0567FFF1E6.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c9cc174[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++config.h.2C21DC0567FFF1E6.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++locale.h.DABD140438E63D70.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++locale.h.DABD140438E63D70.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6ca708c[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++locale.h.DABD140438E63D70.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cctype.63BEBE8FA7992675.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cctype.63BEBE8FA7992675.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5519a45[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cctype.63BEBE8FA7992675.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cerrno.00368D86F5565FD6.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cerrno.00368D86F5565FD6.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..03cdc85[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cerrno.00368D86F5565FD6.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/char_traits.h.E01D296588DA0DAE.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/char_traits.h.E01D296588DA0DAE.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ee4e35a[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/char_traits.h.E01D296588DA0DAE.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/charconv.h.FFF8249B12E3050B.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/charconv.h.FFF8249B12E3050B.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..cfa3330[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/charconv.h.FFF8249B12E3050B.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/chrono.41093F7756D0ECE2.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/chrono.41093F7756D0ECE2.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..070327e[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/chrono.41093F7756D0ECE2.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/climits.8A4A060CBDCB1A2B.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/climits.8A4A060CBDCB1A2B.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..722ee4d[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/climits.8A4A060CBDCB1A2B.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/clocale.222AE96133CEB53B.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/clocale.222AE96133CEB53B.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9b7899e[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/clocale.222AE96133CEB53B.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cmath.C44587E1737CC86B.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cmath.C44587E1737CC86B.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7bf3554[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cmath.C44587E1737CC86B.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/concept_check.h.C1C62F5D2CCB0FAE.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/concept_check.h.C1C62F5D2CCB0FAE.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..eef1f80[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/concept_check.h.C1C62F5D2CCB0FAE.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/concurrence.h.6477C668A8683084.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/concurrence.h.6477C668A8683084.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e9d46ef[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/concurrence.h.6477C668A8683084.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt.h.EE125FC345DD652D.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt.h.EE125FC345DD652D.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3321cbd[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt.h.EE125FC345DD652D.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_startup.h.30E189E80E05A127.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_startup.h.30E189E80E05A127.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a5a2dbd[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_startup.h.30E189E80E05A127.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_stdio_config.h.F6E61B8BD7DECC47.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_stdio_config.h.F6E61B8BD7DECC47.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ff85de3[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_stdio_config.h.F6E61B8BD7DECC47.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_wstdlib.h.FD21F323CAD93E4C.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_wstdlib.h.FD21F323CAD93E4C.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1ca0dc6[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_wstdlib.h.FD21F323CAD93E4C.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cpp_type_traits.h.BB132673AEB816BA.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cpp_type_traits.h.BB132673AEB816BA.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e0862fe[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cpp_type_traits.h.BB132673AEB816BA.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cpu_defines.h.465AD0D972618757.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cpu_defines.h.465AD0D972618757.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..31ad8a5[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cpu_defines.h.465AD0D972618757.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/crtdefs.h.2F407B861B651E2F.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/crtdefs.h.2F407B861B651E2F.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..56151cc[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/crtdefs.h.2F407B861B651E2F.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstddef.F05C0C2AD293C66B.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstddef.F05C0C2AD293C66B.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..37a8604[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstddef.F05C0C2AD293C66B.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdint.1847A92CB103FB3A.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdint.1847A92CB103FB3A.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2aa912e[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdint.1847A92CB103FB3A.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdio.75B99E32033C3045.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdio.75B99E32033C3045.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f8d0fdf[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdio.75B99E32033C3045.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdlib.A5C46ACA559C1CBD.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdlib.A5C46ACA559C1CBD.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c5ed491[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdlib.A5C46ACA559C1CBD.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstring.564707E2D1D8DFF1.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstring.564707E2D1D8DFF1.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..349b174[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstring.564707E2D1D8DFF1.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctime.7100AD3FCA8FA9CB.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctime.7100AD3FCA8FA9CB.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..af558dd[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctime.7100AD3FCA8FA9CB.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctype.h.68F5EE7E3FC92454.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctype.h.68F5EE7E3FC92454.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2d255ac[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctype.h.68F5EE7E3FC92454.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cwchar.DD7E41E0AFDBE31F.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cwchar.DD7E41E0AFDBE31F.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8a38c41[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cwchar.DD7E41E0AFDBE31F.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cxxabi_forced.h.6482FC118F691EAA.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cxxabi_forced.h.6482FC118F691EAA.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6096966[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cxxabi_forced.h.6482FC118F691EAA.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cxxabi_init_exception.h.E39B3D6BCAC6F3F3.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cxxabi_init_exception.h.E39B3D6BCAC6F3F3.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..48e068e[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cxxabi_init_exception.h.E39B3D6BCAC6F3F3.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/debug.h.225B39486E72DEAF.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/debug.h.225B39486E72DEAF.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..21d766c[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/debug.h.225B39486E72DEAF.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ell_integral.tcc.584A85E9CFC4D744.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ell_integral.tcc.584A85E9CFC4D744.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dcfdad9[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ell_integral.tcc.584A85E9CFC4D744.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/enable_special_members.h.81B778ACB8F21FD5.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/enable_special_members.h.81B778ACB8F21FD5.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..87a0934[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/enable_special_members.h.81B778ACB8F21FD5.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/erase_if.h.5BA8B392975EBC82.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/erase_if.h.5BA8B392975EBC82.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1b3b323[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/erase_if.h.5BA8B392975EBC82.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/errno.h.FF5E0F10D11C38EF.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/errno.h.FF5E0F10D11C38EF.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c5fa25c[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/errno.h.FF5E0F10D11C38EF.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/error_constants.h.D9C03533966C2131.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/error_constants.h.D9C03533966C2131.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b93a505[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/error_constants.h.D9C03533966C2131.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception.41F8363ADDF133DE.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception.41F8363ADDF133DE.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5389d7d[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception.41F8363ADDF133DE.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception.h.D22357797DD47554.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception.h.D22357797DD47554.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..050b443[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception.h.D22357797DD47554.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception_defines.h.9BAB45DFDFD96621.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception_defines.h.9BAB45DFDFD96621.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b2e6b7e[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception_defines.h.9BAB45DFDFD96621.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception_ptr.h.226562DB0F54F44D.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception_ptr.h.226562DB0F54F44D.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9c2f9c1[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception_ptr.h.226562DB0F54F44D.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/execution_defs.h.720636AFBD5FC3CA.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/execution_defs.h.720636AFBD5FC3CA.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7e44138[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/execution_defs.h.720636AFBD5FC3CA.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exp_integral.tcc.DF2E8D6218347DE3.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exp_integral.tcc.DF2E8D6218347DE3.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..962d5ca[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exp_integral.tcc.DF2E8D6218347DE3.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functexcept.h.80AC4BAA1396DC57.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functexcept.h.80AC4BAA1396DC57.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..682ba53[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functexcept.h.80AC4BAA1396DC57.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functional.BCE3EE2FB837DEC1.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functional.BCE3EE2FB837DEC1.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..43b8455[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functional.BCE3EE2FB837DEC1.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functional_hash.h.149F4E72F50C0C14.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functional_hash.h.149F4E72F50C0C14.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ad3d0d2[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functional_hash.h.149F4E72F50C0C14.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gamma.tcc.37F76B6F36C8A315.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gamma.tcc.37F76B6F36C8A315.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3d67c97[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gamma.tcc.37F76B6F36C8A315.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_algorithm_defs.h.CE7FAF46E8AD1759.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_algorithm_defs.h.CE7FAF46E8AD1759.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1d07e39[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_algorithm_defs.h.CE7FAF46E8AD1759.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_memory_defs.h.F7EB333208B6AE8D.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_memory_defs.h.F7EB333208B6AE8D.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..42955ac[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_memory_defs.h.F7EB333208B6AE8D.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_numeric_defs.h.E38152292BBA573F.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_numeric_defs.h.E38152292BBA573F.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4dfc60d[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_numeric_defs.h.E38152292BBA573F.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gthr-default.h.B28D23596DAF831F.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gthr-default.h.B28D23596DAF831F.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e8cc3ef[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gthr-default.h.B28D23596DAF831F.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gthr.h.95CE07D14DBEE1EA.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gthr.h.95CE07D14DBEE1EA.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0b4426b[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gthr.h.95CE07D14DBEE1EA.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hash_bytes.h.62DF6E91D1D3D30C.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hash_bytes.h.62DF6E91D1D3D30C.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2afa8ca[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hash_bytes.h.62DF6E91D1D3D30C.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hashtable.h.70D0D1C94A005FF9.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hashtable.h.70D0D1C94A005FF9.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f1e75a2[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hashtable.h.70D0D1C94A005FF9.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hashtable_policy.h.7FE9FFE09D843FFA.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hashtable_policy.h.7FE9FFE09D843FFA.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8e61a26[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hashtable_policy.h.7FE9FFE09D843FFA.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hypergeometric.tcc.516FAFC01A477D9D.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hypergeometric.tcc.516FAFC01A477D9D.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..970208a[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hypergeometric.tcc.516FAFC01A477D9D.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/initializer_list.28A6C6FB67A09A01.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/initializer_list.28A6C6FB67A09A01.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fce8303[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/initializer_list.28A6C6FB67A09A01.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/invoke.h.A259DE81E6A6E78F.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/invoke.h.A259DE81E6A6E78F.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1cda81f[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/invoke.h.A259DE81E6A6E78F.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ios_base.h.E0C9510DE4398923.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ios_base.h.E0C9510DE4398923.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..326055e[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ios_base.h.E0C9510DE4398923.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iosfwd.5C129ED42BCE140E.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iosfwd.5C129ED42BCE140E.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..014c317[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iosfwd.5C129ED42BCE140E.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iterator.591DFE6AD168D36D.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iterator.591DFE6AD168D36D.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9b184e7[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iterator.591DFE6AD168D36D.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/legendre_function.tcc.E9F72F75003403A2.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/legendre_function.tcc.E9F72F75003403A2.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a7e56a3[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/legendre_function.tcc.E9F72F75003403A2.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.3FEFE72336147264.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.3FEFE72336147264.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..68d43b1[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.3FEFE72336147264.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.h.4DF39CBDCAA43B57.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.h.4DF39CBDCAA43B57.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a224f93[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.h.4DF39CBDCAA43B57.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.h.BC1D4C9471A6ADE2.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.h.BC1D4C9471A6ADE2.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1b10ad4[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.h.BC1D4C9471A6ADE2.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/list.4AC1C8A2DAA05B70.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/list.4AC1C8A2DAA05B70.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9775649[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/list.4AC1C8A2DAA05B70.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/list.tcc.994BFED9918240FE.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/list.tcc.994BFED9918240FE.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d9772bc[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/list.tcc.994BFED9918240FE.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale.h.ECFFE58101CCEB44.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale.h.ECFFE58101CCEB44.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..672ebd8[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale.h.ECFFE58101CCEB44.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_classes.h.6158D14FC554C76C.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_classes.h.6158D14FC554C76C.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6effc34[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_classes.h.6158D14FC554C76C.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_classes.tcc.26CA9164CF03CAE5.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_classes.tcc.26CA9164CF03CAE5.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f978822[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_classes.tcc.26CA9164CF03CAE5.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/localefwd.h.F59245686BD6188C.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/localefwd.h.F59245686BD6188C.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..96eff0d[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/localefwd.h.F59245686BD6188C.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/main.cpp.8068621512D5FE6C.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/main.cpp.8068621512D5FE6C.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..af0c4b5[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/main.cpp.8068621512D5FE6C.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/malloc.h.91098D2484943E2A.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/malloc.h.91098D2484943E2A.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0c1ce2a[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/malloc.h.91098D2484943E2A.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/map.6F59F72F614160B1.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/map.6F59F72F614160B1.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..327c746[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/map.6F59F72F614160B1.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/math.h.8C5965F68D2D8D0A.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/math.h.8C5965F68D2D8D0A.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9bc94b4[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/math.h.8C5965F68D2D8D0A.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/memory.694B71097EE264CB.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/memory.694B71097EE264CB.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..058e440[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/memory.694B71097EE264CB.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/memoryfwd.h.F7D40F1A133CB5F7.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/memoryfwd.h.F7D40F1A133CB5F7.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..141f249[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/memoryfwd.h.F7D40F1A133CB5F7.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/mm_malloc.h.25FFC55489F7CFCF.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/mm_malloc.h.25FFC55489F7CFCF.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2520087[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/mm_malloc.h.25FFC55489F7CFCF.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/modified_bessel_func.tcc.C6AB47A0C33452CF.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/modified_bessel_func.tcc.C6AB47A0C33452CF.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..66278af[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/modified_bessel_func.tcc.C6AB47A0C33452CF.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/move.h.B9C481338367D9AE.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/move.h.B9C481338367D9AE.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c8fcb9b[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/move.h.B9C481338367D9AE.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/nested_exception.h.A092ED199B068F57.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/nested_exception.h.A092ED199B068F57.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e648113[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/nested_exception.h.A092ED199B068F57.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/new.068630F5D2AC6016.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/new.068630F5D2AC6016.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3e54f0e[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/new.068630F5D2AC6016.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/new_allocator.h.A117956987F0396A.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/new_allocator.h.A117956987F0396A.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bca633e[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/new_allocator.h.A117956987F0396A.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/node_handle.h.0F0D91941F96EFD4.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/node_handle.h.0F0D91941F96EFD4.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f563837[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/node_handle.h.0F0D91941F96EFD4.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/numeric.66AD29EF954181D3.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/numeric.66AD29EF954181D3.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4e02d79[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/numeric.66AD29EF954181D3.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/numeric_traits.h.35F1F5E7C987C275.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/numeric_traits.h.35F1F5E7C987C275.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9c52929[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/numeric_traits.h.35F1F5E7C987C275.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/optional.4214039576EDA6BB.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/optional.4214039576EDA6BB.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b46e193[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/optional.4214039576EDA6BB.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/os_defines.h.BA3C3D4AA9DDB20B.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/os_defines.h.BA3C3D4AA9DDB20B.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0fe7b33[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/os_defines.h.BA3C3D4AA9DDB20B.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ostream_insert.h.71E955924CB7040B.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ostream_insert.h.71E955924CB7040B.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9697287[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ostream_insert.h.71E955924CB7040B.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/parse_numbers.h.2FBFA7EC6F28FE62.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/parse_numbers.h.2FBFA7EC6F28FE62.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..684da56[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/parse_numbers.h.2FBFA7EC6F28FE62.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/poly_hermite.tcc.D0042DDEC72B0E52.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/poly_hermite.tcc.D0042DDEC72B0E52.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6beae5e[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/poly_hermite.tcc.D0042DDEC72B0E52.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/poly_laguerre.tcc.2A277D85899AD1A0.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/poly_laguerre.tcc.2A277D85899AD1A0.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e804d48[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/poly_laguerre.tcc.2A277D85899AD1A0.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/postypes.h.E75F6AB904F3BE19.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/postypes.h.E75F6AB904F3BE19.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..579372f[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/postypes.h.E75F6AB904F3BE19.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/predefined_ops.h.FE3A28D63991F8FD.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/predefined_ops.h.FE3A28D63991F8FD.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..976f598[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/predefined_ops.h.FE3A28D63991F8FD.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/process.h.901D27804A0E425B.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/process.h.901D27804A0E425B.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..da77077[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/process.h.901D27804A0E425B.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pstl_config.h.477FC0FCCBDDD1C6.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pstl_config.h.477FC0FCCBDDD1C6.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1e0b899[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pstl_config.h.477FC0FCCBDDD1C6.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread.h.F1B3C712C0F6487A.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread.h.F1B3C712C0F6487A.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bc545a9[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread.h.F1B3C712C0F6487A.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_compat.h.9FF203A9D6169622.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_compat.h.9FF203A9D6169622.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..66c02de[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_compat.h.9FF203A9D6169622.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_signal.h.986399E47C5327D6.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_signal.h.986399E47C5327D6.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ded1cab[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_signal.h.986399E47C5327D6.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_time.h.3F95107337D25941.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_time.h.3F95107337D25941.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..217028c[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_time.h.3F95107337D25941.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_unistd.h.351CEC47E2FE2E91.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_unistd.h.351CEC47E2FE2E91.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1c7bee4[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_unistd.h.351CEC47E2FE2E91.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ptr_traits.h.1E6F421300255198.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ptr_traits.h.1E6F421300255198.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f6b2695[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ptr_traits.h.1E6F421300255198.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20functional.h.BB34CF933BD1BB81.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20functional.h.BB34CF933BD1BB81.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..60e7f18[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20functional.h.BB34CF933BD1BB81.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20memory.h.C5973F7AC1D6C39C.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20memory.h.C5973F7AC1D6C39C.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5c6a8de[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20memory.h.C5973F7AC1D6C39C.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20type_traits.h.319C0D9F9E187C13.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20type_traits.h.319C0D9F9E187C13.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0725c4d[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20type_traits.h.319C0D9F9E187C13.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q23utility.h.CEFBB90BE756FD54.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q23utility.h.CEFBB90BE756FD54.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5da3608[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q23utility.h.CEFBB90BE756FD54.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaction.h.3E2FD49EF3751CBF.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaction.h.3E2FD49EF3751CBF.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0c555af[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaction.h.3E2FD49EF3751CBF.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qalgorithms.h.1259E42FBE4736F4.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qalgorithms.h.1259E42FBE4736F4.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bddc2c7[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qalgorithms.h.1259E42FBE4736F4.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qanystringview.h.FEAB77E3CF8A4BF8.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qanystringview.h.FEAB77E3CF8A4BF8.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ec5b7e1[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qanystringview.h.FEAB77E3CF8A4BF8.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qapplication.h.8DE1C4773C0ED32E.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qapplication.h.8DE1C4773C0ED32E.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1a551f8[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qapplication.h.8DE1C4773C0ED32E.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydata.h.ACE51BF39730C733.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydata.h.ACE51BF39730C733.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c3b5b8f[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydata.h.ACE51BF39730C733.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydataops.h.73E2A00D8FF79345.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydataops.h.73E2A00D8FF79345.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0788ea2[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydataops.h.73E2A00D8FF79345.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydatapointer.h.9573EAB3908B62BF.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydatapointer.h.9573EAB3908B62BF.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0a8a272[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydatapointer.h.9573EAB3908B62BF.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qassert.h.12692B5E72A8D8E9.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qassert.h.12692B5E72A8D8E9.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e1a1fa6[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qassert.h.12692B5E72A8D8E9.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qatomic.h.08E0B248844C0174.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qatomic.h.08E0B248844C0174.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..16c9a90[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qatomic.h.08E0B248844C0174.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qatomic_cxx11.h.2F2772F8B34990ED.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qatomic_cxx11.h.2F2772F8B34990ED.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0b8e4d3[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qatomic_cxx11.h.2F2772F8B34990ED.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbasicatomic.h.9569CC2E39766FED.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbasicatomic.h.9569CC2E39766FED.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e611e22[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbasicatomic.h.9569CC2E39766FED.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbindingstorage.h.477C5A9D1D57E01B.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbindingstorage.h.477C5A9D1D57E01B.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7a82f39[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbindingstorage.h.477C5A9D1D57E01B.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbitmap.h.A01B7ACA6891D3FA.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbitmap.h.A01B7ACA6891D3FA.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..25b63ad[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbitmap.h.A01B7ACA6891D3FA.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbrush.h.2F8BFD5884A7C012.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbrush.h.2F8BFD5884A7C012.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f8ed0a9[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbrush.h.2F8BFD5884A7C012.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearray.h.DA67ABCB2FE1D7CB.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearray.h.DA67ABCB2FE1D7CB.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..41c588b[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearray.h.DA67ABCB2FE1D7CB.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearrayalgorithms.h.133226EB5A2D573E.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearrayalgorithms.h.133226EB5A2D573E.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8b13d2d[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearrayalgorithms.h.133226EB5A2D573E.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearraylist.h.F0BEC4BBD5DDB799.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearraylist.h.F0BEC4BBD5DDB799.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..cb8afc6[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearraylist.h.F0BEC4BBD5DDB799.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearrayview.h.616F7FC7B580D6FC.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearrayview.h.616F7FC7B580D6FC.idx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..cc70892[m
+Binary files /dev/null and b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearrayview.h.616F7FC7B580D6FC.idx differ
+[1mdiff --git a/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qchar.h.416DB2138BE32142.idx b/Bomjara/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qchar.h.416DB2138BE32142.idx[m
+[1mnew file m
