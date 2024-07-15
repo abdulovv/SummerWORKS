@@ -3,7 +3,7 @@
 #include <QApplication>
 
 void initialization(){
-    const QString STATSPATH = "D:\\GITHUB\\SummerWORKS\\Stats.txt";
+    const QString STATSPATH = "Stats.txt";
     QFile statsFile(STATSPATH);
     statsFile.open(QIODevice::WriteOnly);
     QString beginStats = "R1000+D100+H100+F100+A20\n";

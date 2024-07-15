@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bomj.png</file>
+    </qresource>
+</RCC>
