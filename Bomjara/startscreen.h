@@ -2,6 +2,11 @@
 #define STARTSCREEN_H
 
 #include <QMainWindow>
+#include <QScreen>
+#include <QPixmap>
+#include <QLabel>
+#include <QPair>
+#include <QPushButton>
 
 class StartScreen : public QMainWindow
 {
@@ -10,5 +15,10 @@ class StartScreen : public QMainWindow
 public:
     StartScreen(QWidget *parent = nullptr);
     ~StartScreen();
+private:
+    QPair<int, int> screenResolution;
+    QPushButton* startButton;
+    QPushButton* lvlButton;
+    QPushButton* exitButton;
 };
 #endif // STARTSCREEN_H
