@@ -4,7 +4,12 @@
 
 Window::Window(QWidget *parent)
     : QMainWindow(parent){
+    screenSize = QSize(QGuiApplication::primaryScreen()->size().width(),
+                       QGuiApplication::primaryScreen()->size().height());
+
+
     menu.centalWidget = this;
+    game.centalWidget = this;
 
     menu.initScene();
     menu.show(this);
@@ -13,7 +18,7 @@ Window::Window(QWidget *parent)
     initWindowButtons();
 
     connect(menu.objs[0], SIGNAL(clicked(bool)), this, SLOT(goToGameScene()));
-    //connect(menu.objs[1], SIGNAL(clicked(bool)), this, SLOT(showWindowButtons()));
+     //connect(menu.objs[1], SIGNAL(clicked(bool)), this, SLOT(showWindowButtons()));
     connect((QPushButton*)menu.objs[2], &QPushButton::clicked, qApp, &QApplication::quit);
     connect(windowButtons[0], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));
     connect(windowButtons[1], SIGNAL(clicked(bool)), this, SLOT(goToGameScene()));
@@ -21,23 +26,21 @@ Window::Window(QWidget *parent)
 
 
 void Window::initWindowButtons(){
-    int height = QGuiApplication::primaryScreen()->size().height();
-    int width = QGuiApplication::primaryScreen()->size().width();
+
 
     const int COUNT_OF_WINDOWBUTTONS = 6;
 
-    float widthButton = (width*5/7) / COUNT_OF_WINDOWBUTTONS;
-    float step = (width*2/7) / (COUNT_OF_WINDOWBUTTONS+1);
+    float widthButton = (screenSize.width()*5/7) / COUNT_OF_WINDOWBUTTONS;
+    float step = (screenSize.width()*2/7) / (COUNT_OF_WINDOWBUTTONS+1);
 
     float currentPosX = step;
     for(int i = 0; i < COUNT_OF_WINDOWBUTTONS; i++){
-        QPushButton* windowButton = new QPushButton(this);
+        QPushButton* windowButton = new QPushButton("TEXT", this);
 
         windowButtons.push_back(windowButton);
 
-        windowButton->setGeometry(currentPosX, height-150, widthButton, 50);
+        windowButton->setGeometry(currentPosX, screenSize.height() -150, widthButton, 50);
         currentPosX += (widthButton+step);
-
         windowButton->hide();
     }
 }
@@ -56,6 +59,7 @@ void Window::hideWindowButtons(){
 
 void Window::goToGameScene(){
     currentScene->hide();
+
     if(game.objs.size() == 0)
         game.initScene();
     game.show(this);

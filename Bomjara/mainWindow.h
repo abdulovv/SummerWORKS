@@ -21,6 +21,7 @@ private:
     Scene* currentScene;
     MenuScene menu;
     GameScene game;
+    QSize screenSize;
 
 
 

@@ -8,7 +8,10 @@ void MenuScene::initScene(){
     QPixmap bomj = QPixmap(":/bomj.png");
     backgroundImage->setPixmap(bomj);
     backgroundImage->setScaledContents(true);
-    centalWidget = backgroundImage;
+    //centalWidget = backgroundImage;
+    backgroundImage->setGeometry(0, 0,
+                               QGuiApplication::primaryScreen()->size().width(),
+                               QGuiApplication::primaryScreen()->size().height() - 50);
 
     objs.push_back(new QPushButton("START GAME", centalWidget));
     objs.push_back(new QPushButton("CONTINUE", centalWidget));
@@ -36,7 +39,7 @@ void MenuScene::hide(){
 }
 
 void MenuScene::show(QMainWindow *parentWindow){
-    parentWindow->setCentralWidget(this->centalWidget);
+    //parentWindow->setCentralWidget(centalWidget);
     for(int i = 0; i < objs.size(); i++) {
         objs[i]->show();
     }
