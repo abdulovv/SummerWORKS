@@ -1,4 +1,4 @@
-#include "startscreen.h"
+#include "mainWindow.h"
 #include <QFile>
 #include <QApplication>
 
@@ -17,7 +17,7 @@ void initialization(){
 int main(int argc, char *argv[]){
     initialization();
     QApplication a(argc, argv);
-    StartScreen w;
+    window w;
     w.show();
     return a.exec();
 }
