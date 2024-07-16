@@ -1,12 +1,12 @@
 #pragma once
 #include "scene.h"
 
-class menuScene : public Scene{
+class MenuScene : public Scene{
     Q_OBJECT
 public:
-    menuScene(){}
+    MenuScene(){}
     void initScene();
-    ~menuScene() {}
+    ~MenuScene() {}
 public slots:
     void hide_first();
 };

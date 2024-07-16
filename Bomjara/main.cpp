@@ -17,7 +17,7 @@ void initialization(){
 int main(int argc, char *argv[]){
     initialization();
     QApplication a(argc, argv);
-    window w;
+    Window w;
     w.show();
     return a.exec();
 }

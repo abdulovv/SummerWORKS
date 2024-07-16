@@ -9,17 +9,15 @@
 #include <QPushButton>
 #include "menuScene.h"
 
-class window : public QMainWindow
-{
+class Window : public QMainWindow{
     Q_OBJECT
 
 public:
-    window(QWidget *parent = nullptr);
-    ~window();
+    Window(QWidget *parent = nullptr);
+    ~Window();
 private:
-    menuScene menu;
+    MenuScene menu;
 
-    QVector<Scene> scenes;
 
 private slots:
 

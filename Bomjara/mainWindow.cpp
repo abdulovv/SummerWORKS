@@ -2,7 +2,7 @@
 #include "qapplication.h"
 #include "menuScene.h"
 
-window::window(QWidget *parent)
+Window::Window(QWidget *parent)
     : QMainWindow(parent){
 
     menu.centalWidget = this->centralWidget();
@@ -13,6 +13,6 @@ window::window(QWidget *parent)
     this->showMaximized();
 }
 
-window::~window() {
+Window::~Window() {
 
 }
