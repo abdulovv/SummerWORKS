@@ -11,7 +11,7 @@ public:
     QWidget* centalWidget;
     QVector<QWidget*> objs;
 
-    Scene() {}
+    Scene() { centalWidget = nullptr; }
 
     virtual void hide() = 0;
     virtual void show(QMainWindow* parentWindow) = 0;

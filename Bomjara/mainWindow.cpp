@@ -2,6 +2,24 @@
 #include "qapplication.h"
 #include "menuScene.h"
 
+Window::Window(QWidget *parent)
+    : QMainWindow(parent){
+    menu.centalWidget = this;
+
+    menu.initScene();
+    menu.show(this);
+    currentScene = &menu;
+
+    initWindowButtons();
+
+    connect(menu.objs[0], SIGNAL(clicked(bool)), this, SLOT(goToGameScene()));
+    //connect(menu.objs[1], SIGNAL(clicked(bool)), this, SLOT(showWindowButtons()));
+    connect((QPushButton*)menu.objs[2], &QPushButton::clicked, qApp, &QApplication::quit);
+    connect(windowButtons[0], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));
+    connect(windowButtons[1], SIGNAL(clicked(bool)), this, SLOT(goToGameScene()));
+}
+
+
 void Window::initWindowButtons(){
     int height = QGuiApplication::primaryScreen()->size().height();
     int width = QGuiApplication::primaryScreen()->size().width();
@@ -36,22 +54,20 @@ void Window::hideWindowButtons(){
     }
 }
 
-void Window::goToScene(int index){
-
+void Window::goToGameScene(){
+    currentScene->hide();
+    if(game.objs.size() == 0)
+        game.initScene();
+    game.show(this);
+    currentScene = &game;
+    showWindowButtons();
 }
 
-Window::Window(QWidget *parent)
-    : QMainWindow(parent){
-
-    menu.centalWidget = this->centralWidget();
-    menu.initScene();
+void Window::goToMenuScene(){
+    currentScene->hide();
     menu.show(this);
-
-    initWindowButtons();
-
-    connect(menu.objs[0], SIGNAL(clicked(bool)), this, SLOT(showWindowButtons()));
-    connect(menu.objs[1], SIGNAL(clicked(bool)), this, SLOT(showWindowButtons()));
-    connect((QPushButton*)menu.objs[2], &QPushButton::clicked, qApp, &QApplication::quit);
+    currentScene = &menu;
+    hideWindowButtons();
 }
 
 Window::~Window() {

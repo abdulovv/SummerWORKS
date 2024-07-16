@@ -13,7 +13,7 @@ void MenuScene::initScene(){
     objs.push_back(new QPushButton("START GAME", centalWidget));
     objs.push_back(new QPushButton("CONTINUE", centalWidget));
     objs.push_back(new  QPushButton("EXIT", centalWidget));
-
+    objs.push_back(backgroundImage);
     int height = QGuiApplication::primaryScreen()->size().height();
     int width = QGuiApplication::primaryScreen()->size().width();
 
@@ -24,18 +24,14 @@ void MenuScene::initScene(){
         objs[i]->setStyleSheet("QPushButton { background-color: rgba(255, 255, 255, 200); border: none; color: black;}");
     }
 
-    connect(objs[0], SIGNAL(clicked(bool)), this, SLOT(hide_first()));
 
 }
 
-void MenuScene::hide_first(){
-    objs[0]->hide();
-}
+
 
 void MenuScene::hide(){
     for(int i = 0; i < objs.size(); i++) {
         objs[i]->hide();
-
     }
 }
 

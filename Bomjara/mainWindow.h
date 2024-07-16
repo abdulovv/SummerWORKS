@@ -8,6 +8,7 @@
 #include <QPair>
 #include <QPushButton>
 #include "menuScene.h"
+#include "gamescene.h"
 
 class Window : public QMainWindow{
     Q_OBJECT
@@ -17,17 +18,19 @@ public:
     ~Window();
 private:
     QVector<QPushButton*> windowButtons;
-
+    Scene* currentScene;
     MenuScene menu;
+    GameScene game;
 
 
 
 
     void initWindowButtons();
-private slots:
     void showWindowButtons();
     void hideWindowButtons();
-    void goToScene(int index);
+private slots:
 
+    void goToGameScene();
+    void goToMenuScene();
 };
 #endif // MAINWINDOW_H

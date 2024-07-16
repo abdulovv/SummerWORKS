@@ -1,16 +1,16 @@
 #pragma once
 #include "scene.h"
 
-class MenuScene : public Scene{
+class GameScene : public Scene{
     Q_OBJECT
 public:
-    MenuScene(){}
+    GameScene(){}
     void initScene();
 
     void hide() override;
     void show(QMainWindow* parentWindow) override;
 
-    ~MenuScene() {}
+    ~GameScene() {}
 public slots:
 
 };
