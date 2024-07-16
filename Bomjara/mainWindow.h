@@ -7,7 +7,7 @@
 #include <QLabel>
 #include <QPair>
 #include <QPushButton>
-#include "scene.h"
+#include "menuScene.h"
 
 class window : public QMainWindow
 {
@@ -17,6 +17,7 @@ public:
     window(QWidget *parent = nullptr);
     ~window();
 private:
+    menuScene menu;
 
     QVector<Scene> scenes;
 

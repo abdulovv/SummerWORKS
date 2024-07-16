@@ -1,6 +1,6 @@
-#include "scene.h"
+#include "mainWindow.h"
 
-Scene::Scene() {}
+
 void Scene::hide(){
     for(int i = 0; i < objs.size(); i++) {
         objs[i]->hide();

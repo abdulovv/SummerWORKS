@@ -1,23 +1,21 @@
-#ifndef SCENE_H
-#define SCENE_H
-
+#pragma once
 #include <QWidget>
+#include <QObject>
 #include "QMainWindow"
-#include"QPushButton"
-class Scene
+#include "QPushButton"
+
+
+class Scene : public QObject
 {
+    Q_OBJECT
 public:
+
     QWidget* centalWidget;
     QVector<QWidget*> objs;
-
-    Scene();
-    Scene(QWidget* centralWidget){
-        this->centalWidget = centralWidget;
-    }
+    Scene() {}
     void hide();
     void show(QMainWindow* parentWindow);
+
+    ~Scene() {}
+
 };
-
-
-
-#endif // SCENE_H

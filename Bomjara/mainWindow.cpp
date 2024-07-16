@@ -1,15 +1,14 @@
 #include "mainWindow.h"
 #include "qapplication.h"
-#include "0-MenuScene.cpp"
+#include "menuScene.h"
 
 window::window(QWidget *parent)
     : QMainWindow(parent){
 
-    scenes = QVector<Scene>(3);
-    scenes[0].centalWidget = this->centralWidget();
-    initMenuScene(&scenes[0]);
+    menu.centalWidget = this->centralWidget();
+    menu.initScene();
 
-    scenes[0].show(this);
+    menu.show(this);
 
     this->showMaximized();
 }
