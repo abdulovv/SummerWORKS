@@ -4,18 +4,17 @@
 #include "QMainWindow"
 #include "QPushButton"
 
-
-class Scene : public QObject
-{
+class Scene : public QObject{
     Q_OBJECT
 public:
 
     QWidget* centalWidget;
     QVector<QWidget*> objs;
+
     Scene() {}
-    void hide();
-    void show(QMainWindow* parentWindow);
+
+    virtual void hide() = 0;
+    virtual void show(QMainWindow* parentWindow) = 0;
 
     ~Scene() {}
-
 };

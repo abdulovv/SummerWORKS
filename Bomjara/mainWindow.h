@@ -16,10 +16,18 @@ public:
     Window(QWidget *parent = nullptr);
     ~Window();
 private:
+    QVector<QPushButton*> windowButtons;
+
     MenuScene menu;
 
 
+
+
+    void initWindowButtons();
 private slots:
+    void showWindowButtons();
+    void hideWindowButtons();
+    void goToScene(int index);
 
 };
 #endif // MAINWINDOW_H

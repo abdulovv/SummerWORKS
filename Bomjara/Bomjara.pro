@@ -11,8 +11,7 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     mainWindow.cpp \
-    menuScene.cpp \
-    scene.cpp
+    menuScene.cpp
 
 HEADERS += \
     mainWindow.h \

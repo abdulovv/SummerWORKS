@@ -18,6 +18,6 @@ int main(int argc, char *argv[]){
     initialization();
     QApplication a(argc, argv);
     Window w;
-    w.show();
+    w.showMaximized();
     return a.exec();
 }

@@ -6,6 +6,10 @@ class MenuScene : public Scene{
 public:
     MenuScene(){}
     void initScene();
+
+    void hide() override;
+    void show(QMainWindow* parentWindow) override;
+
     ~MenuScene() {}
 public slots:
     void hide_first();
