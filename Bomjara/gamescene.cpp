@@ -1,5 +1,30 @@
 #include "gameScene.h"
+#include <QPushButton>
+#include <QLayout>
 
+
+void GameScene::addButtons(QVector<QWidget*> objs){
+    QVector<QPushButton*> buttons;
+
+    buttons.push_back( new QPushButton("GAME-1", parentWidget));
+    buttons.push_back( new QPushButton("GAME-2", parentWidget));
+    buttons.push_back( new QPushButton("GAME-3", parentWidget));
+    buttons.push_back( new QPushButton("GAME-4", parentWidget));
+
+    int countOfButtons = buttons.size();
+
+    float widthButton = (screenSize.width()*5/7) / (countOfButtons);
+    float step = (screenSize.width()*2/7) / (countOfButtons + 1);
+
+    float currentPosX = step;
+    for(int i = 0; i < countOfButtons; i++){
+        QPushButton* currentButton = buttons[i];
+        currentButton->setGeometry(currentPosX, screenSize.height()-120, widthButton, 50);
+        currentPosX += (widthButton+step);
+        objs.push_back(currentButton);
+        currentButton->show();
+    }
+}
 
 void GameScene::initScene(){
 
@@ -25,9 +50,10 @@ void GameScene::initScene(){
     tempTexture.load(":/Sleep.png");
     icons[2].setPixmap(tempTexture);
 
-    objs.push_back(new QPushButton("Back", parentWidget));
+    objs.push_back(new QPushButton("exit", parentWidget));
     connect(objs[4], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));
-    
+
+    addButtons(objs);
 }
 
 

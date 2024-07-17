@@ -2,6 +2,7 @@
 #include "QPushButton"
 #include "qlabel.h"
 #include "SceneManager.h"
+#include "QMainWindow"
 
 class GameScene : public Scene{
     Q_OBJECT
@@ -9,6 +10,8 @@ private:
     QLabel* icons;
     QLabel* backgroundImage;
     SceneManager* scenes;
+
+    void addButtons(QVector<QWidget*> objs);
 public:
     GameScene() : Scene() {}
     GameScene(QWidget* parent, SceneManager* sceneManager, QSize screenSize = QSize(0, 0)) {
@@ -25,6 +28,7 @@ public:
     }
 public slots:
     void goToMenuScene() {
+
         scenes->goToScene(0);
     }
 };

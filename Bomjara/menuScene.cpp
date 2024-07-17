@@ -1,5 +1,6 @@
 #include "menuScene.h"
 #include "QPushButton"
+#include "qapplication.h"
 
 void MenuScene::initScene(){
 
@@ -10,7 +11,7 @@ void MenuScene::initScene(){
     backgroundImage->setGeometry(0, 0, screenSize.width(), screenSize.height());
 
     objs.push_back(new QPushButton("START GAME", parentWidget));
-    objs.push_back(new QPushButton("CONTINUE", parentWidget));
+    objs.push_back(new QPushButton("CONTINUE GAME", parentWidget));
     objs.push_back(new  QPushButton("EXIT", parentWidget));
     objs.push_back(backgroundImage);
 
@@ -20,11 +21,11 @@ void MenuScene::initScene(){
         objs[i]->setGeometry(screenSize.width() / 2.0 - 100, screenSize.height() / 2.0 - 150 + 80 * i, 200, 40);
         objs[i]->setStyleSheet("QPushButton { background-color: rgba(255, 255, 255, 200); border: none; color: black;}");
     }
+
     connect(objs[0], SIGNAL(clicked(bool)), this, SLOT(goToGameScene()));
-
+    connect(objs[1], SIGNAL(clicked(bool)), this, SLOT(goToGameScene()));
+    connect((QPushButton*)objs[2], &QPushButton::clicked, qApp, &QApplication::quit);
 }
-
-
 
 void MenuScene::hide(){
     for(int i = 0; i < objs.size(); i++) {
