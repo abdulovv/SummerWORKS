@@ -1,8 +1,7 @@
 #include "gameScene.h"
 
-void GameScene::initScene(QWidget* parent, QSize screenSize){
-    parentWidget = parent;
-    this->screenSize = screenSize;
+
+void GameScene::initScene(){
 
     backgroundImage = new QLabel(parentWidget);
     icons = new QLabel[3];
@@ -10,7 +9,7 @@ void GameScene::initScene(QWidget* parent, QSize screenSize){
     QPixmap tempTexture(":/gameSceneBack.png");
     backgroundImage->setPixmap(tempTexture);
     backgroundImage->setScaledContents(true);
-    backgroundImage->setGeometry(0, 0, screenSize.width(), screenSize.height() - 180);
+    backgroundImage->setGeometry(0, 0, screenSize.width(), screenSize.height());
     objs.push_back(backgroundImage);
 
     for (int i = 0; i < 3; i++) {
@@ -26,6 +25,9 @@ void GameScene::initScene(QWidget* parent, QSize screenSize){
     tempTexture.load(":/Sleep.png");
     icons[2].setPixmap(tempTexture);
 
+    objs.push_back(new QPushButton("Back", parentWidget));
+    connect(objs[4], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));
+    
 }
 
 

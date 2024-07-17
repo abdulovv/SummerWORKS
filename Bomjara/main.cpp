@@ -18,6 +18,7 @@ int main(int argc, char *argv[]){
     initialization();
     QApplication a(argc, argv);
     Window w;
+    //w.showFullScreen();
     w.showMaximized();
     return a.exec();
 }

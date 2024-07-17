@@ -1,20 +1,29 @@
 #pragma once
-#include "scene.h"
 #include "QLabel"
 #include "qpixmap.h"
+#include "SceneManager.h"
 
 class MenuScene : public Scene{
     Q_OBJECT
 private:
     QLabel* backgroundImage;
+    SceneManager* scenes;
 public:
     MenuScene() : Scene() {}
-    void initScene(QWidget* parent, QSize screenSize = QSize(0, 0));
+    MenuScene(QWidget* parent, SceneManager* sceneManager, QSize screenSize = QSize(0, 0)) {
+        Scene::parentWidget = parent;
+        scenes = sceneManager;
+        Scene::screenSize = screenSize;
+    }
 
+
+    void initScene() override;
     void hide() override;
     void show() override;
 
     ~MenuScene() {}
 public slots:
-
+    void goToGameScene() {
+        scenes->goToScene(1);
+    }
 };

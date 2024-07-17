@@ -1,9 +1,7 @@
 #include "menuScene.h"
 #include "QPushButton"
 
-void MenuScene::initScene(QWidget* parent, QSize screenSize){
-    parentWidget = parent;
-    this->screenSize = screenSize;
+void MenuScene::initScene(){
 
     backgroundImage = new QLabel(parentWidget);
     QPixmap bomj = QPixmap(":/bomj.png");
@@ -22,7 +20,7 @@ void MenuScene::initScene(QWidget* parent, QSize screenSize){
         objs[i]->setGeometry(screenSize.width() / 2.0 - 100, screenSize.height() / 2.0 - 150 + 80 * i, 200, 40);
         objs[i]->setStyleSheet("QPushButton { background-color: rgba(255, 255, 255, 200); border: none; color: black;}");
     }
-
+    connect(objs[0], SIGNAL(clicked(bool)), this, SLOT(goToGameScene()));
 
 }
 
