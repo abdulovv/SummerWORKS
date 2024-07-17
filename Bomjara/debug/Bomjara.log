@@ -1,3 +1,0 @@
-﻿  Generate moc_predefs.h
-C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: настраиваемая сборка для элемента "debug\moc_predefs.h.cbt" успешно выполнена, но заданная зависимость "d:\c++\qt-projects\summerworks\bomjara\debug\moc_predefs.h.cbt" не существует. Это может привести к неправильной работе инкрементной сборки.
-  Bomjara.vcxproj -> D:\C++\Qt-Projects\SummerWORKS\Bomjara\debug\Bomjara.exe
