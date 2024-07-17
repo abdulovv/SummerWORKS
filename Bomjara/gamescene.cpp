@@ -1,27 +1,30 @@
 #include "gameScene.h"
-#include "mainWindow.h"
-#include "QPushButton"
-#include "qlineedit.h"
 
+void GameScene::initScene(QWidget* parent, QSize screenSize){
+    parentWidget = parent;
+    this->screenSize = screenSize;
 
-void GameScene::initScene(){
+    backgroundImage = new QLabel(parentWidget);
+    icons = new QLabel[3];
 
-    QLabel *backgroundImage = new QLabel(centalWidget);
-    QPixmap bomj = QPixmap(":/3219238023.png");
-    backgroundImage->setPixmap(bomj);
+    QPixmap tempTexture(":/gameSceneBack.png");
+    backgroundImage->setPixmap(tempTexture);
     backgroundImage->setScaledContents(true);
-    backgroundImage->setGeometry(100, 100, 100, 100);
-    //centalWidget = backgroundImage;
-    backgroundImage->setGeometry(0, 0,
-                                 QGuiApplication::primaryScreen()->size().width(),
-                                 QGuiApplication::primaryScreen()->size().height() - 180);
+    backgroundImage->setGeometry(0, 0, screenSize.width(), screenSize.height() - 180);
     objs.push_back(backgroundImage);
-    objs.push_back(new QPushButton("GAME", centalWidget));
-    objs[1]->setGeometry(500, 500, 100, 100);
 
-    int height = QGuiApplication::primaryScreen()->size().height();
-    int width = QGuiApplication::primaryScreen()->size().width();
-
+    for (int i = 0; i < 3; i++) {
+        icons[i].setParent(parentWidget);
+        icons[i].setScaledContents(true);
+        icons[i].setGeometry(screenSize.width() - 350, 80 + 100 * i, 40, 40);
+        objs.push_back(icons + i);
+    }
+    tempTexture.load(":/Heart.png");
+    icons[0].setPixmap(tempTexture);
+    tempTexture.load(":/Food.png");
+    icons[1].setPixmap(tempTexture);
+    tempTexture.load(":/Sleep.png");
+    icons[2].setPixmap(tempTexture);
 
 }
 
@@ -32,12 +35,10 @@ void GameScene::hide(){
     }
 }
 
-void GameScene::show(QMainWindow *parentWindow){
-    //parentWindow->setCentralWidget(this->centalWidget);
+void GameScene::show(){
     for(int i = 0; i < objs.size(); i++) {
         objs[i]->show();
     }
 }
-
 
 

@@ -1,6 +1,9 @@
 <RCC>
     <qresource prefix="/">
         <file>bomj.png</file>
-        <file>3219238023.png</file>
+        <file>Heart.png</file>
+        <file>Sleep.png</file>
+        <file>Food.png</file>
+        <file>gameSceneBack.png</file>
     </qresource>
 </RCC>

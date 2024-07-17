@@ -1,20 +1,26 @@
 #pragma once
 #include <QWidget>
 #include <QObject>
-#include "QMainWindow"
-#include "QPushButton"
 
 class Scene : public QObject{
     Q_OBJECT
+protected:
+    
 public:
-
-    QWidget* centalWidget;
+    QSize screenSize;
+    QWidget* parentWidget;
     QVector<QWidget*> objs;
 
-    Scene() { centalWidget = nullptr; }
+    Scene() { parentWidget = nullptr; }
 
     virtual void hide() = 0;
-    virtual void show(QMainWindow* parentWindow) = 0;
+    virtual void show() = 0;
 
-    ~Scene() {}
+    ~Scene() {
+        for (int i = 0; i < objs.size(); i++)
+        {
+            objs[i]->~QWidget();
+            objs.clear();
+        }
+    }
 };

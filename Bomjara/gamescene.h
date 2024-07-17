@@ -1,16 +1,23 @@
 #pragma once
 #include "scene.h"
+#include "QPushButton"
+#include "qlabel.h"
 
 class GameScene : public Scene{
     Q_OBJECT
+private:
+    QLabel* icons;
+    QLabel* backgroundImage;
 public:
-    GameScene(){}
-    void initScene();
+    GameScene() : Scene() {}
+    void initScene(QWidget* parent, QSize screenSize = QSize(0, 0));
 
     void hide() override;
-    void show(QMainWindow* parentWindow) override;
+    void show() override;
 
-    ~GameScene() {}
+    ~GameScene() {
+        delete[] icons;
+    }
 public slots:
 
 };

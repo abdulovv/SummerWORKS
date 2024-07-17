@@ -2,17 +2,14 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "qapplication.h"
 #include <QScreen>
-#include <QPixmap>
-#include <QLabel>
-#include <QPair>
 #include <QPushButton>
 #include "menuScene.h"
 #include "gamescene.h"
 
 class Window : public QMainWindow{
     Q_OBJECT
-
 public:
     Window(QWidget *parent = nullptr);
     ~Window();
@@ -25,12 +22,10 @@ private:
 
 
 
-
     void initWindowButtons();
     void showWindowButtons();
     void hideWindowButtons();
 private slots:
-
     void goToGameScene();
     void goToMenuScene();
 };
