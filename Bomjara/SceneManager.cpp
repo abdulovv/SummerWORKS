@@ -9,8 +9,5 @@ void SceneManager::goToScene(int number) {
 }
 
 SceneManager::~SceneManager() {
-	for (int i = 0; i < scenes.size(); i++)
-	{
-		scenes[i]->~Scene();
-	}
+	scenes.clear();
 }

@@ -49,6 +49,7 @@ void GameScene::initScene(){
     icons[1].setPixmap(tempTexture);
     tempTexture.load(":/Sleep.png");
     icons[2].setPixmap(tempTexture);
+    icons = nullptr;
 
     objs.push_back(new QPushButton("exit", parentWidget));
     connect(objs[4], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));

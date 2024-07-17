@@ -37,6 +37,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="gamescene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -49,11 +52,11 @@
     <ClCompile Include="menuScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SceneManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <QtMoc Include="gamescene.h">
       <Filter>Header Files</Filter>
     </QtMoc>
@@ -76,9 +79,6 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Images\3219238023.png">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="..\Images\Food.png">
       <Filter>Resource Files</Filter>
     </None>
@@ -94,10 +94,8 @@
     <None Include="..\Images\bomj.png">
       <Filter>Resource Files</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="SceneManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <None Include="..\Images\gameSceneBack.png">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

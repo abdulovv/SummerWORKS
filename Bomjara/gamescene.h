@@ -13,8 +13,11 @@ private:
 
     void addButtons(QVector<QWidget*> objs);
 public:
-    GameScene() : Scene() {}
+    GameScene() : Scene() {
+        icons = nullptr; backgroundImage = nullptr;
+    }
     GameScene(QWidget* parent, SceneManager* sceneManager, QSize screenSize = QSize(0, 0)) {
+        icons = nullptr; backgroundImage = nullptr;
         Scene::parentWidget = parent;
         scenes = sceneManager;
         Scene::screenSize = screenSize;
@@ -24,11 +27,11 @@ public:
     void show() override;
 
     ~GameScene() {
-        delete[] icons;
+        if (icons != nullptr)
+            delete[] icons;
     }
 public slots:
     void goToMenuScene() {
-
         scenes->goToScene(0);
     }
 };

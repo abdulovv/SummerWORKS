@@ -20,12 +20,9 @@ public:
 
     void clearScene(){
         for (int i = 0; i < objs.size(); i++)
-        {
             objs[i]->~QWidget();
-            objs.clear();
-        }
+        objs.clear();
     }
-
 
     ~Scene() {
         clearScene();
