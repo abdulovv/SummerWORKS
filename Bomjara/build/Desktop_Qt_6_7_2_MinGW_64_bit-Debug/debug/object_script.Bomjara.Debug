@@ -1,0 +1,10 @@
+debug/SceneManager.o
+debug/gamescene.o
+debug/main.o
+debug/mainWindow.o
+debug/menuScene.o
+debug/qrc_Images.o
+debug/moc_gamescene.o
+debug/moc_mainWindow.o
+debug/moc_menuScene.o
+debug/moc_scene.o
