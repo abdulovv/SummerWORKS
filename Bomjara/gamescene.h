@@ -34,4 +34,26 @@ public slots:
     void goToMenuScene() {
         scenes->goToScene(0);
     }
+
+    void goToGameScene_1() {
+        scenes->goToScene(1);
+    }
+
+    void goToGameScene_2() {
+        scenes->goToScene(2);
+    }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+

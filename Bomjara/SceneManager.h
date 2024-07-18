@@ -2,8 +2,7 @@
 #include "scene.h"
 #include "qvector.h"
 
-class SceneManager
-{
+class SceneManager{
 public:
 	QVector<Scene*> scenes;
 	Scene* currentScene;

@@ -8,9 +8,11 @@ Window::Window(QWidget *parent)
     
     MenuScene* menu = new MenuScene(this, &scenes, screenSize);
     GameScene* game = new GameScene(this, &scenes, screenSize);
+    MoneyScene* money = new MoneyScene(this, &scenes, screenSize);
 
     scenes.scenes.push_back(menu);
     scenes.scenes.push_back(game);
+    scenes.scenes.push_back(money);
     scenes.goToScene(0);
 
 

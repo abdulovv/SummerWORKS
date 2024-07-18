@@ -7,6 +7,7 @@
 #include <QPushButton>
 #include "menuScene.h"
 #include "gamescene.h"
+#include "moneyScene.h"
 
 
 class Window : public QMainWindow{

@@ -13,13 +13,15 @@ SOURCES += \
     gamescene.cpp \
     main.cpp \
     mainWindow.cpp \
-    menuScene.cpp
+    menuScene.cpp \
+    moneyScene.cpp
 
 HEADERS += \
     SceneManager.h \
     gamescene.h \
     mainWindow.h \
     menuScene.h \
+    moneyScene.h \
     scene.h
 
 # Default rules for deployment.

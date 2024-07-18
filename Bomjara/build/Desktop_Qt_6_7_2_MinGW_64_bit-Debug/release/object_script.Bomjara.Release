@@ -3,8 +3,10 @@ release/gamescene.o
 release/main.o
 release/mainWindow.o
 release/menuScene.o
+release/moneyScene.o
 release/qrc_Images.o
 release/moc_gamescene.o
 release/moc_mainWindow.o
 release/moc_menuScene.o
+release/moc_moneyScene.o
 release/moc_scene.o

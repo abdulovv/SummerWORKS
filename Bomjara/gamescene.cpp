@@ -21,9 +21,17 @@ void GameScene::addButtons(QVector<QWidget*> objs){
         QPushButton* currentButton = buttons[i];
         currentButton->setGeometry(currentPosX, screenSize.height()-120, widthButton, 50);
         currentPosX += (widthButton+step);
+
+        //connect(currentButton, SIGNAL(clicked(bool)), this, SLOT(goToScene(i+1)));
+
         objs.push_back(currentButton);
         currentButton->show();
     }
+
+    connect(buttons[1], SIGNAL(clicked(bool)), this, SLOT(goToGameScene_2()));
+
+    buttons[0]->setEnabled(false);
+    buttons[1]->setEnabled(true);
 }
 
 void GameScene::initScene(){
@@ -43,6 +51,7 @@ void GameScene::initScene(){
         icons[i].setGeometry(screenSize.width() - 350, 80 + 100 * i, 40, 40);
         objs.push_back(icons + i);
     }
+
     tempTexture.load(":/Heart.png");
     icons[0].setPixmap(tempTexture);
     tempTexture.load(":/Food.png");
@@ -53,6 +62,8 @@ void GameScene::initScene(){
 
     objs.push_back(new QPushButton("exit", parentWidget));
     connect(objs[4], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));
+
+
 
     addButtons(objs);
 }

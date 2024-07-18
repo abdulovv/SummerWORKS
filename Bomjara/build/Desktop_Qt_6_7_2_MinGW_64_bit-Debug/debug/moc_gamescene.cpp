@@ -38,7 +38,9 @@ struct qt_meta_stringdata_CLASSGameSceneENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSGameSceneENDCLASS = QtMocHelpers::stringData(
     "GameScene",
     "goToMenuScene",
-    ""
+    "",
+    "goToGameScene_1",
+    "goToGameScene_2"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -51,7 +53,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSGameSceneENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -59,9 +61,13 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSGameSceneENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   20,    2, 0x0a,    1 /* Public */,
+       1,    0,   32,    2, 0x0a,    1 /* Public */,
+       3,    0,   33,    2, 0x0a,    2 /* Public */,
+       4,    0,   34,    2, 0x0a,    3 /* Public */,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -77,6 +83,10 @@ Q_CONSTINIT const QMetaObject GameScene::staticMetaObject = { {
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<GameScene, std::true_type>,
         // method 'goToMenuScene'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'goToGameScene_1'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'goToGameScene_2'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -89,6 +99,8 @@ void GameScene::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         (void)_t;
         switch (_id) {
         case 0: _t->goToMenuScene(); break;
+        case 1: _t->goToGameScene_1(); break;
+        case 2: _t->goToGameScene_2(); break;
         default: ;
         }
     }
@@ -114,13 +126,13 @@ int GameScene::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 3;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 3;
     }
     return _id;
 }
