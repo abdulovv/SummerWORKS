@@ -1,6 +1,6 @@
 #pragma once
-#include "QPushButton"
-#include "qlabel.h"
+
+#include <QLabel>
 #include "SceneManager.h"
 
 class MoneyScene : public Scene{
@@ -8,7 +8,7 @@ class MoneyScene : public Scene{
 private:
     QLabel* icons;
     QLabel* backgroundImage;
-    SceneManager* scenes;
+    SceneManager* sceneManager;
 
     void addButtons(QVector<QWidget*> objs);
 public:
@@ -19,7 +19,7 @@ public:
     MoneyScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
         icons = nullptr; backgroundImage = nullptr;
         Scene::parentWidget = parent;
-        scenes = sceneManager;
+        this->sceneManager = sceneManager;
         Scene::screenSize = screenSize;
         this->player = player;
     }
@@ -34,16 +34,12 @@ public:
     }
 
 public slots:
-    void goToMenuScene() {
-        scenes->goToScene(0);
+    void goToMainMenuScene() {
+        sceneManager->goToScene(0);
     }
 
     void goToGameScene_1() {
-        scenes->goToScene(1);
-    }
-
-    void goToGameScene_2() {
-        scenes->goToScene(2);
+        sceneManager->goToScene(1);
     }
 
 };

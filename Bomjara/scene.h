@@ -1,6 +1,8 @@
 #pragma once
+
 #include <QWidget>
 #include <QObject>
+
 #include "Player.h"
 
 class Scene : public QObject{
@@ -22,6 +24,7 @@ public:
     void clearScene(){
         for (int i = 0; i < objs.size(); i++)
             objs[i]->~QWidget();
+
         objs.clear();
     }
 

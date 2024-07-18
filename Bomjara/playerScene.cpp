@@ -1,15 +1,13 @@
-#include "gameScene.h"
-#include <QPushButton>
-#include <QLayout>
+#include "playerScene.h"
 
-
-void GameScene::addButtons(QVector<QWidget*> objs){
+void PlayerScene::addButtons(QVector<QWidget*> objs){
     QVector<QPushButton*> buttons;
 
-    buttons.push_back( new QPushButton("GAME-1", parentWidget));
-    buttons.push_back( new QPushButton("GAME-2", parentWidget));
-    buttons.push_back( new QPushButton("GAME-3", parentWidget));
-    buttons.push_back( new QPushButton("GAME-4", parentWidget));
+    buttons.push_back( new QPushButton("MY PLAYER", parentWidget));
+    buttons.push_back( new QPushButton("MONEY", parentWidget));
+    buttons.push_back( new QPushButton("HEALTH", parentWidget));
+    buttons.push_back( new QPushButton("HAPPINNES", parentWidget));
+    buttons.push_back( new QPushButton("BUSINESS", parentWidget));
 
     int countOfButtons = buttons.size();
 
@@ -19,22 +17,21 @@ void GameScene::addButtons(QVector<QWidget*> objs){
     float currentPosX = step;
     for(int i = 0; i < countOfButtons; i++){
         QPushButton* currentButton = buttons[i];
-        currentButton->setGeometry(currentPosX, screenSize.height()-120, widthButton, 50);
-        currentPosX += (widthButton+step);
 
-        //connect(currentButton, SIGNAL(clicked(bool)), this, SLOT(goToScene(i+1)));
+        currentButton->setGeometry(currentPosX, screenSize.height()-125, widthButton, 50);
+        currentPosX += (widthButton+step);
 
         objs.push_back(currentButton);
         currentButton->show();
     }
 
-    connect(buttons[1], SIGNAL(clicked(bool)), this, SLOT(goToGameScene_2()));
+    connect(buttons[1], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
 
     buttons[0]->setEnabled(false);
     buttons[1]->setEnabled(true);
 }
 
-void GameScene::initScene(){
+void PlayerScene::initScene(){
 
     backgroundImage = new QLabel(parentWidget);
     icons = new QLabel[3];
@@ -63,19 +60,17 @@ void GameScene::initScene(){
     objs.push_back(new QPushButton("exit", parentWidget));
     connect(objs[4], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));
 
-
-
     addButtons(objs);
 }
 
 
-void GameScene::hide(){
+void PlayerScene::hide(){
     for(int i = 0; i < objs.size(); i++) {
         objs[i]->hide();
     }
 }
 
-void GameScene::show(){
+void PlayerScene::show(){
     for(int i = 0; i < objs.size(); i++) {
         objs[i]->show();
     }

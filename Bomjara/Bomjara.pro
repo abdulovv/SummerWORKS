@@ -9,18 +9,20 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    SceneManager.cpp \
-    gamescene.cpp \
+    mainMenuScene.cpp \
+    player.cpp \
+    playerScene.cpp \
+    sceneManager.cpp \
     main.cpp \
     mainWindow.cpp \
-    menuScene.cpp \
     moneyScene.cpp
 
 HEADERS += \
-    SceneManager.h \
-    gamescene.h \
+    mainMenuScene.h \
+    player.h \
+    playerScene.h \
+    sceneManager.h \
     mainWindow.h \
-    menuScene.h \
     moneyScene.h \
     scene.h
 

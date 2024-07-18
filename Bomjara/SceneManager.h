@@ -1,6 +1,8 @@
 #pragma once
+
+#include <QVector>
+
 #include "scene.h"
-#include "qvector.h"
 
 class SceneManager{
 public:

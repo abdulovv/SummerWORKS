@@ -34,9 +34,9 @@ QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSMenuSceneENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSMenuSceneENDCLASS = QtMocHelpers::stringData(
-    "MenuScene",
+struct qt_meta_stringdata_CLASSMainMenuSceneENDCLASS_t {};
+constexpr auto qt_meta_stringdata_CLASSMainMenuSceneENDCLASS = QtMocHelpers::stringData(
+    "MainMenuScene",
     "goToGameScene",
     ""
 );
@@ -45,7 +45,7 @@ constexpr auto qt_meta_stringdata_CLASSMenuSceneENDCLASS = QtMocHelpers::stringD
 #endif // !QT_MOC_HAS_STRINGDATA
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSMenuSceneENDCLASS[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSMainMenuSceneENDCLASS[] = {
 
  // content:
       12,       // revision
@@ -67,25 +67,25 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMenuSceneENDCLASS[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject MenuScene::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject MainMenuScene::staticMetaObject = { {
     QMetaObject::SuperData::link<Scene::staticMetaObject>(),
-    qt_meta_stringdata_CLASSMenuSceneENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSMenuSceneENDCLASS,
+    qt_meta_stringdata_CLASSMainMenuSceneENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSMainMenuSceneENDCLASS,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSMenuSceneENDCLASS_t,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSMainMenuSceneENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<MenuScene, std::true_type>,
+        QtPrivate::TypeAndForceComplete<MainMenuScene, std::true_type>,
         // method 'goToGameScene'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
 
-void MenuScene::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void MainMenuScene::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<MenuScene *>(_o);
+        auto *_t = static_cast<MainMenuScene *>(_o);
         (void)_t;
         switch (_id) {
         case 0: _t->goToGameScene(); break;
@@ -95,20 +95,20 @@ void MenuScene::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     (void)_a;
 }
 
-const QMetaObject *MenuScene::metaObject() const
+const QMetaObject *MainMenuScene::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *MenuScene::qt_metacast(const char *_clname)
+void *MainMenuScene::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSMenuSceneENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSMainMenuSceneENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return Scene::qt_metacast(_clname);
 }
 
-int MenuScene::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int MainMenuScene::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = Scene::qt_metacall(_c, _id, _a);
     if (_id < 0)

@@ -1,20 +1,18 @@
 #pragma once
-#include <QMainWindow>
-//#include "qapplication.h"
 
+#include <QPixmap>
 
-class Player
-{
+class Player{
 private:
-	
 
 public:
 	QString name;
-	int age, level;
-	float score, rubbles, dollars,
-		health, hunger, hapiness;
-	QPixmap profilePhoto;
+    int age, level;
 
+    float score, rubbles, dollars ,
+        health, hunger, hapiness;
+
+    QPixmap profilePhoto;
 
 	Player() {
 		name = "Unnamed"; age = 18; level = 0;
@@ -24,6 +22,5 @@ public:
 	
 	void saveToFile(QString fileName = "playerData.ini");
 	void loadFromFile(QString fileName = "playerData.ini");
-
 };
 

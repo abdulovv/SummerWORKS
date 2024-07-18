@@ -1,25 +1,26 @@
 #pragma once
-#include "QPushButton"
-#include "qlabel.h"
-#include "SceneManager.h"
-#include "QMainWindow"
 
-class GameScene : public Scene{
+#include <QPushButton>
+#include <QLabel>
+
+#include "SceneManager.h"
+
+class PlayerScene : public Scene{
     Q_OBJECT
 private:
     QLabel* icons;
     QLabel* backgroundImage;
-    SceneManager* scenes;
+    SceneManager* sceneManager;
 
     void addButtons(QVector<QWidget*> objs);
 public:
-    GameScene() : Scene() {
+    PlayerScene() : Scene() {
         icons = nullptr; backgroundImage = nullptr;
     }
-    GameScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
+    PlayerScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
         icons = nullptr; backgroundImage = nullptr;
         Scene::parentWidget = parent;
-        scenes = sceneManager;
+        this->sceneManager = sceneManager;
         Scene::screenSize = screenSize;
         this->player = player;
     }
@@ -27,21 +28,17 @@ public:
     void hide() override;
     void show() override;
 
-    ~GameScene() {
+    ~PlayerScene() {
         if (icons != nullptr)
             delete[] icons;
     }
 public slots:
     void goToMenuScene() {
-        scenes->goToScene(0);
+        sceneManager->goToScene(0);
     }
 
-    void goToGameScene_1() {
-        scenes->goToScene(1);
-    }
-
-    void goToGameScene_2() {
-        scenes->goToScene(2);
+    void goToMoneyScene() {
+        sceneManager->goToScene(2);
     }
 };
 

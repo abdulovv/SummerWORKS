@@ -1,13 +1,14 @@
-#include "moneyScene.h"
 #include <QPushButton>
+#include "moneyScene.h"
 
 void MoneyScene::addButtons(QVector<QWidget*> objs){
     QVector<QPushButton*> buttons;
 
-    buttons.push_back( new QPushButton("GAME-1", parentWidget));
-    buttons.push_back( new QPushButton("GAME-2", parentWidget));
-    buttons.push_back( new QPushButton("GAME-3", parentWidget));
-    buttons.push_back( new QPushButton("GAME-4", parentWidget));
+    buttons.push_back( new QPushButton("MY PLAYER", parentWidget));
+    buttons.push_back( new QPushButton("MONEY", parentWidget));
+    buttons.push_back( new QPushButton("HEALTH", parentWidget));
+    buttons.push_back( new QPushButton("HAPPINNES", parentWidget));
+    buttons.push_back( new QPushButton("BUSINESS", parentWidget));
 
     int countOfButtons = buttons.size();
 
@@ -17,7 +18,7 @@ void MoneyScene::addButtons(QVector<QWidget*> objs){
     float currentPosX = step;
     for(int i = 0; i < countOfButtons; i++){
         QPushButton* currentButton = buttons[i];
-        currentButton->setGeometry(currentPosX, screenSize.height()-120, widthButton, 50);
+        currentButton->setGeometry(currentPosX, screenSize.height()-125, widthButton, 50);
         currentPosX += (widthButton+step);
         objs.push_back(currentButton);
         currentButton->show();
@@ -30,7 +31,6 @@ void MoneyScene::addButtons(QVector<QWidget*> objs){
 }
 
 void MoneyScene::initScene(){
-
     backgroundImage = new QLabel(parentWidget);
 
     // QPixmap tempTexture(":/gameSceneBack.png");
@@ -51,7 +51,6 @@ void MoneyScene::initScene(){
 
     addButtons(objs);
 }
-
 
 void MoneyScene::hide(){
     for(int i = 0; i < objs.size(); i++) {

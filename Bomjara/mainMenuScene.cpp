@@ -1,18 +1,36 @@
-#include "menuScene.h"
-#include "QPushButton"
-#include "qapplication.h"
+#include <QPushButton>
+#include <QApplication>
 
-void MenuScene::initScene(){
+#include "mainMenuScene.h"
+
+void MainMenuScene::initScene(){
+    QPixmap bomj = QPixmap(":/bomj.png");
 
     backgroundImage = new QLabel(parentWidget);
-    QPixmap bomj = QPixmap(":/bomj.png");
     backgroundImage->setPixmap(bomj);
     backgroundImage->setScaledContents(true);
     backgroundImage->setGeometry(0, 0, screenSize.width(), screenSize.height());
 
+    addButtons();
+}
+
+void MainMenuScene::hide(){
+    for(int i = 0; i < objs.size(); i++) {
+        objs[i]->hide();
+    }
+}
+
+void MainMenuScene::show(){
+    for(int i = 0; i < objs.size(); i++) {
+        objs[i]->show();
+    }
+}
+
+void MainMenuScene::addButtons(){
     objs.push_back(new QPushButton("START GAME", parentWidget));
     objs.push_back(new QPushButton("CONTINUE GAME", parentWidget));
     objs.push_back(new  QPushButton("EXIT", parentWidget));
+
     objs.push_back(backgroundImage);
 
     const int COUNT_OF_BUTTONS = 3;
@@ -26,18 +44,5 @@ void MenuScene::initScene(){
     connect(objs[1], SIGNAL(clicked(bool)), this, SLOT(goToGameScene()));
     connect((QPushButton*)objs[2], &QPushButton::clicked, qApp, &QApplication::quit);
 }
-
-void MenuScene::hide(){
-    for(int i = 0; i < objs.size(); i++) {
-        objs[i]->hide();
-    }
-}
-
-void MenuScene::show(){
-    for(int i = 0; i < objs.size(); i++) {
-        objs[i]->show();
-    }
-}
-
 
 
