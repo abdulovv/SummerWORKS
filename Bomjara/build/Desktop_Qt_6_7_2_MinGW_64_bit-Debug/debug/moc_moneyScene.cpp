@@ -37,9 +37,9 @@ namespace {
 struct qt_meta_stringdata_CLASSMoneySceneENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSMoneySceneENDCLASS = QtMocHelpers::stringData(
     "MoneyScene",
-    "goToMainMenuScene",
+    "goToPlayerScene",
     "",
-    "goToGameScene_1"
+    "goToMoneyScene"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -79,9 +79,9 @@ Q_CONSTINIT const QMetaObject MoneyScene::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSMoneySceneENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<MoneyScene, std::true_type>,
-        // method 'goToMainMenuScene'
+        // method 'goToPlayerScene'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'goToGameScene_1'
+        // method 'goToMoneyScene'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -93,8 +93,8 @@ void MoneyScene::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<MoneyScene *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->goToMainMenuScene(); break;
-        case 1: _t->goToGameScene_1(); break;
+        case 0: _t->goToPlayerScene(); break;
+        case 1: _t->goToMoneyScene(); break;
         default: ;
         }
     }

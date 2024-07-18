@@ -12,7 +12,6 @@ private:
     QLabel* backgroundImage;
     SceneManager* sceneManager;
 
-    void addButtons(QVector<QWidget*> objs);
 public:
     PlayerScene() : Scene() {
         icons = nullptr; backgroundImage = nullptr;
@@ -27,6 +26,7 @@ public:
     void initScene() override;
     void hide() override;
     void show() override;
+    void buttonCustomization() override;
 
     ~PlayerScene() {
         if (icons != nullptr)

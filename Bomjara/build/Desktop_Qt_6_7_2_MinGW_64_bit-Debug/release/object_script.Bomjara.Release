@@ -1,6 +1,7 @@
 release/mainMenuScene.o
 release/player.o
 release/playerScene.o
+release/scene.o
 release/sceneManager.o
 release/main.o
 release/mainWindow.o

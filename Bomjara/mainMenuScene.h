@@ -22,7 +22,9 @@ public:
     void initScene() override;
     void hide() override;
     void show() override;
-    void addButtons();
+    void buttonCustomization() override;
+
+    void addMainButtons(QVector<QWidget*> &objs);
 
     ~MainMenuScene() {}
 public slots:

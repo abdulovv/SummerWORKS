@@ -12,6 +12,7 @@ SOURCES += \
     mainMenuScene.cpp \
     player.cpp \
     playerScene.cpp \
+    scene.cpp \
     sceneManager.cpp \
     main.cpp \
     mainWindow.cpp \

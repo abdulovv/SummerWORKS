@@ -10,7 +10,6 @@ private:
     QLabel* backgroundImage;
     SceneManager* sceneManager;
 
-    void addButtons(QVector<QWidget*> objs);
 public:
     MoneyScene() : Scene() {
         icons = nullptr; backgroundImage = nullptr;
@@ -27,6 +26,7 @@ public:
     void initScene() override;
     void hide() override;
     void show() override;
+    void buttonCustomization() override;
 
     ~MoneyScene() {
         if (icons != nullptr)
@@ -34,12 +34,12 @@ public:
     }
 
 public slots:
-    void goToMainMenuScene() {
-        sceneManager->goToScene(0);
+    void goToPlayerScene(){
+        sceneManager->goToScene(1);
     }
 
-    void goToGameScene_1() {
-        sceneManager->goToScene(1);
+    void goToMoneyScene(){
+        sceneManager->goToScene(2);
     }
 
 };

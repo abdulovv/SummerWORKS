@@ -1,42 +1,11 @@
 #include "playerScene.h"
 
-void PlayerScene::addButtons(QVector<QWidget*> objs){
-    QVector<QPushButton*> buttons;
-
-    buttons.push_back( new QPushButton("MY PLAYER", parentWidget));
-    buttons.push_back( new QPushButton("MONEY", parentWidget));
-    buttons.push_back( new QPushButton("HEALTH", parentWidget));
-    buttons.push_back( new QPushButton("HAPPINNES", parentWidget));
-    buttons.push_back( new QPushButton("BUSINESS", parentWidget));
-
-    int countOfButtons = buttons.size();
-
-    float widthButton = (screenSize.width()*5/7) / (countOfButtons);
-    float step = (screenSize.width()*2/7) / (countOfButtons + 1);
-
-    float currentPosX = step;
-    for(int i = 0; i < countOfButtons; i++){
-        QPushButton* currentButton = buttons[i];
-
-        currentButton->setGeometry(currentPosX, screenSize.height()-125, widthButton, 50);
-        currentPosX += (widthButton+step);
-
-        objs.push_back(currentButton);
-        currentButton->show();
-    }
-
-    connect(buttons[1], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
-
-    buttons[0]->setEnabled(false);
-    buttons[1]->setEnabled(true);
-}
-
 void PlayerScene::initScene(){
 
     backgroundImage = new QLabel(parentWidget);
     icons = new QLabel[3];
 
-    QPixmap tempTexture(":/gameSceneBack.png");
+    QPixmap tempTexture(":/GameSceneBack.png");
     backgroundImage->setPixmap(tempTexture);
     backgroundImage->setScaledContents(true);
     backgroundImage->setGeometry(0, 0, screenSize.width(), screenSize.height());
@@ -57,10 +26,14 @@ void PlayerScene::initScene(){
     icons[2].setPixmap(tempTexture);
     icons = nullptr;
 
-    objs.push_back(new QPushButton("exit", parentWidget));
+
+    objs.push_back(new QPushButton("return to menu", parentWidget));
     connect(objs[4], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));
 
-    addButtons(objs);
+    //last:
+
+    addMainButtons(objs);
+    buttonCustomization();
 }
 
 
@@ -74,6 +47,20 @@ void PlayerScene::show(){
     for(int i = 0; i < objs.size(); i++) {
         objs[i]->show();
     }
+}
+
+void PlayerScene::buttonCustomization(){
+    const int COUNT_OF_MAINBUTTONS = 5;
+    int size = objs.size();
+
+    connect(objs[size-4], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
+    //conect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
+    //...
+    //...
+
+    for(int i = 1; i <= COUNT_OF_MAINBUTTONS; i++)
+        objs[size-i]->setEnabled((i == 5 ? false : true));
+
 }
 
 

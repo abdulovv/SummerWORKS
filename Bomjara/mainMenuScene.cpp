@@ -4,14 +4,14 @@
 #include "mainMenuScene.h"
 
 void MainMenuScene::initScene(){
-    QPixmap bomj = QPixmap(":/bomj.png");
+    QPixmap bomj = QPixmap(":/Bomj.png");
 
     backgroundImage = new QLabel(parentWidget);
     backgroundImage->setPixmap(bomj);
     backgroundImage->setScaledContents(true);
     backgroundImage->setGeometry(0, 0, screenSize.width(), screenSize.height());
 
-    addButtons();
+    addMainButtons(objs);
 }
 
 void MainMenuScene::hide(){
@@ -26,7 +26,7 @@ void MainMenuScene::show(){
     }
 }
 
-void MainMenuScene::addButtons(){
+void MainMenuScene::addMainButtons(QVector<QWidget *> &objs){
     objs.push_back(new QPushButton("START GAME", parentWidget));
     objs.push_back(new QPushButton("CONTINUE GAME", parentWidget));
     objs.push_back(new  QPushButton("EXIT", parentWidget));
@@ -45,4 +45,7 @@ void MainMenuScene::addButtons(){
     connect((QPushButton*)objs[2], &QPushButton::clicked, qApp, &QApplication::quit);
 }
 
+void MainMenuScene::buttonCustomization(){
+    //empty
+}
 

@@ -1,6 +1,7 @@
 debug/mainMenuScene.o
 debug/player.o
 debug/playerScene.o
+debug/scene.o
 debug/sceneManager.o
 debug/main.o
 debug/mainWindow.o

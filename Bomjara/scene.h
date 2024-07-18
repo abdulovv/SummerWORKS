@@ -2,6 +2,7 @@
 
 #include <QWidget>
 #include <QObject>
+#include <QPushButton>
 
 #include "Player.h"
 
@@ -20,13 +21,10 @@ public:
     virtual void initScene() = 0;
     virtual void hide() = 0;
     virtual void show() = 0;
+    virtual void buttonCustomization() = 0;
 
-    void clearScene(){
-        for (int i = 0; i < objs.size(); i++)
-            objs[i]->~QWidget();
-
-        objs.clear();
-    }
+    void clearScene();
+    void addMainButtons(QVector<QWidget*> &objs);
 
     ~Scene() {
         clearScene();
