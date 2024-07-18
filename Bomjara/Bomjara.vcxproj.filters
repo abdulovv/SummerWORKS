@@ -52,6 +52,12 @@
     <ClCompile Include="menuScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="moneyScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SceneManager.h">
@@ -69,6 +75,9 @@
     <QtMoc Include="scene.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="debug\moc_predefs.h.cbt">
@@ -97,5 +106,10 @@
     <None Include="..\Images\gameSceneBack.png">
       <Filter>Resource Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="moneyScene.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>

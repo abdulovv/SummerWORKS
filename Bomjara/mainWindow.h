@@ -18,16 +18,12 @@ public:
 private:
     QVector<QPushButton*> windowButtons;
     Scene* currentScene;
-    //MenuScene menu;
-    //GameScene game;
+    Player* player;
+
     QSize screenSize;
     SceneManager scenes;
 
-    void initWindowButtons();
-    void showWindowButtons();
-    void hideWindowButtons();
 private slots:
-    //void goToGameScene();
-    //void goToMenuScene();
+
 };
 #endif // MAINWINDOW_H

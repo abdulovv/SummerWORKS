@@ -16,11 +16,12 @@ public:
         icons = nullptr; backgroundImage = nullptr;
     }
 
-    MoneyScene(QWidget* parent, SceneManager* sceneManager, QSize screenSize = QSize(0, 0)) {
+    MoneyScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
         icons = nullptr; backgroundImage = nullptr;
         Scene::parentWidget = parent;
         scenes = sceneManager;
         Scene::screenSize = screenSize;
+        this->player = player;
     }
 
     void initScene() override;

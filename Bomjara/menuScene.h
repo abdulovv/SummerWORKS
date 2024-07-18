@@ -10,11 +10,12 @@ private:
     SceneManager* scenes;
 public:
     MenuScene() : Scene() { backgroundImage = nullptr; }
-    MenuScene(QWidget* parent, SceneManager* sceneManager, QSize screenSize = QSize(0, 0)) {
+    MenuScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
         backgroundImage = nullptr;
         Scene::parentWidget = parent;
         scenes = sceneManager;
         Scene::screenSize = screenSize;
+        this->player = player;
     }
 
 

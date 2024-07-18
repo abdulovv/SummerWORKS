@@ -1,7 +1,7 @@
 #pragma once
 #include <QWidget>
 #include <QObject>
-
+#include "Player.h"
 
 class Scene : public QObject{
     Q_OBJECT
@@ -11,8 +11,9 @@ public:
     QSize screenSize;
     QWidget* parentWidget;
     QVector<QWidget*> objs;
+    Player* player;
 
-    Scene() { parentWidget = nullptr; }
+    Scene() { parentWidget = nullptr; player = nullptr; }
 
     virtual void initScene() = 0;
     virtual void hide() = 0;

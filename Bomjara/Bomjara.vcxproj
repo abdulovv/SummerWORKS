@@ -85,7 +85,8 @@
       <Optimization>MaxSpeed</Optimization>
       <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessToFile>false</PreprocessToFile>
-      <ProgramDataBaseFileName></ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>
+      </ProgramDataBaseFileName>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
@@ -192,6 +193,8 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="moneyScene.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="gamescene.cpp" />
     <ClCompile Include="main.cpp" />
@@ -199,6 +202,8 @@
     <ClCompile Include="menuScene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="moneyScene.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="SceneManager.h" />
     <QtMoc Include="gamescene.h" />
     <QtMoc Include="mainWindow.h" />
