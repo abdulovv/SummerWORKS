@@ -50,4 +50,16 @@ public slots:
     void goToHappinnesScene(){
         sceneManager->goToScene(4);
     }
+
+    void goToBusinessScene(){
+        sceneManager->goToScene(5);
+    }
+
+    void goToCasinoScene(){
+        sceneManager->goToScene(6);
+    }
+
+    void goToPropertyScene(){
+        sceneManager->goToScene(7);
+    }
 };

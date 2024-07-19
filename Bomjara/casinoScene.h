@@ -4,7 +4,7 @@
 #include "SceneManager.h"
 #include "scene.h"
 
-class HappinnesScene : public Scene{
+class CasinoScene : public Scene{
     Q_OBJECT
 private:
     QLabel* icons = nullptr;
@@ -12,10 +12,10 @@ private:
     SceneManager* sceneManager = nullptr;
 
 public:
-    HappinnesScene() : Scene() {
+    CasinoScene() : Scene() {
     }
 
-    HappinnesScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
+    CasinoScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
         Scene::parentWidget = parent;
         this->sceneManager = sceneManager;
         Scene::screenSize = screenSize;
@@ -27,7 +27,7 @@ public:
     void show() override;
     void buttonCustomization() override;
 
-    ~HappinnesScene() {
+    ~CasinoScene() {
         clearScene();
     }
 
@@ -64,8 +64,3 @@ public slots:
         sceneManager->goToScene(7);
     }
 };
-
-
-
-
-

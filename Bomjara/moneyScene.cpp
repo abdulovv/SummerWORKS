@@ -36,9 +36,9 @@ void MoneyScene::buttonCustomization(){
     connect(objs[size-6], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
     connect(objs[size-5], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
     connect(objs[size-4], SIGNAL(clicked(bool)), this, SLOT(goToHappinnesScene()));
-    //conect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
-    //...
-    //...
+    connect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToBusinessScene()));
+    connect(objs[size-2], SIGNAL(clicked(bool)), this, SLOT(goToCasinoScene()));
+    connect(objs[size-1], SIGNAL(clicked(bool)), this, SLOT(goToPropertyScene()));
 
     objs[size-6]->setEnabled(false);
 

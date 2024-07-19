@@ -1,37 +1,38 @@
 #pragma once
 
+#include <QPushButton>
 #include <QLabel>
-#include "SceneManager.h"
-#include "scene.h"
 
-class HappinnesScene : public Scene{
+#include "SceneManager.h"
+
+class PropertyScene : public Scene{
     Q_OBJECT
 private:
-    QLabel* icons = nullptr;
+    QLabel* icons = nullptr, *horizontalBars, *horizontalBarsFrames;
     QLabel* backgroundImage = nullptr;
     SceneManager* sceneManager = nullptr;
 
 public:
-    HappinnesScene() : Scene() {
+    PropertyScene() : Scene() {
     }
-
-    HappinnesScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
+    PropertyScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
         Scene::parentWidget = parent;
         this->sceneManager = sceneManager;
         Scene::screenSize = screenSize;
         this->player = player;
     }
-
     void initScene() override;
     void hide() override;
     void show() override;
     void buttonCustomization() override;
 
-    ~HappinnesScene() {
+    ~PropertyScene() {
         clearScene();
     }
 
 public slots:
+    void update();
+
     void goToMenuScene() {
         sceneManager->goToScene(0);
     }
@@ -64,6 +65,16 @@ public slots:
         sceneManager->goToScene(7);
     }
 };
+
+
+
+
+
+
+
+
+
+
 
 
 

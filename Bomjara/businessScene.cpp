@@ -1,8 +1,8 @@
 #include <QPushButton>
-#include "happinnesScene.h"
+#include "businessScene.h"
 
-void HappinnesScene::initScene(){
-    QPixmap money = QPixmap(":/CasinoBack.png");
+void BusinessScene::initScene(){
+    QPixmap money = QPixmap(":/HealthBack.jpg");
     backgroundImage = new QLabel(parentWidget);
     backgroundImage->setPixmap(money);
     backgroundImage->setScaledContents(true);
@@ -16,19 +16,19 @@ void HappinnesScene::initScene(){
     buttonCustomization();
 }
 
-void HappinnesScene::hide(){
+void BusinessScene::hide(){
     for(int i = 0; i < objs.size(); i++) {
         objs[i]->hide();
     }
 }
 
-void HappinnesScene::show(){
+void BusinessScene::show(){
     for(int i = 0; i < objs.size(); i++) {
         objs[i]->show();
     }
 }
 
-void HappinnesScene::buttonCustomization(){
+void BusinessScene::buttonCustomization(){
     int size = objs.size();
 
     connect(objs[size-7], SIGNAL(clicked(bool)), this, SLOT(goToPlayerScene()));
@@ -39,7 +39,7 @@ void HappinnesScene::buttonCustomization(){
     connect(objs[size-2], SIGNAL(clicked(bool)), this, SLOT(goToCasinoScene()));
     connect(objs[size-1], SIGNAL(clicked(bool)), this, SLOT(goToPropertyScene()));
 
-    objs[size-4]->setEnabled(false);
+    objs[size-3]->setEnabled(false);
 }
 
 
