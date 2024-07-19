@@ -34,6 +34,10 @@ public:
     }
 
 public slots:
+    void goToMenuScene() {
+        sceneManager->goToScene(0);
+    }
+
     void goToPlayerScene(){
         sceneManager->goToScene(1);
     }
@@ -42,4 +46,7 @@ public slots:
         sceneManager->goToScene(2);
     }
 
+    void goToHealthScene(){
+        sceneManager->goToScene(3);
+    }
 };

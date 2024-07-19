@@ -1,8 +1,8 @@
 #include <QPushButton>
-#include "moneyScene.h"
+#include "healthScene.h"
 
-void MoneyScene::initScene(){
-    QPixmap money = QPixmap(":/MoneyBack.jpg");
+void HealthScene::initScene(){
+    QPixmap money = QPixmap(":/HealthBack.jpg");
 
     backgroundImage = new QLabel(parentWidget);
     backgroundImage->setPixmap(money);
@@ -17,30 +17,30 @@ void MoneyScene::initScene(){
     buttonCustomization();
 }
 
-void MoneyScene::hide(){
+void HealthScene::hide(){
     for(int i = 0; i < objs.size(); i++) {
         objs[i]->hide();
     }
 }
 
-void MoneyScene::show(){
+void HealthScene::show(){
     for(int i = 0; i < objs.size(); i++) {
         objs[i]->show();
     }
 }
 
-void MoneyScene::buttonCustomization(){
+void HealthScene::buttonCustomization(){
     int size = objs.size();
 
     connect(objs[size-5], SIGNAL(clicked(bool)), this, SLOT(goToPlayerScene()));
     connect(objs[size-4], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
     connect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
+
     //conect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
     //...
     //...
 
-    objs[size-4]->setEnabled(false);
-
+    objs[size-3]->setEnabled(false);
 }
 
 

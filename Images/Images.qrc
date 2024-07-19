@@ -3,8 +3,10 @@
         <file>Heart.png</file>
         <file>Sleep.png</file>
         <file>Food.png</file>
-        <file>Money.jpg</file>
-        <file>Bomj.png</file>
-        <file>GameSceneBack.png</file>
+        <file>FoodBack.jpg</file>
+        <file>HealthBack.jpg</file>
+        <file>MoneyBack.jpg</file>
+        <file>StartBack.jpg</file>
+        <file>PlayerBack.jpg</file>
     </qresource>
 </RCC>

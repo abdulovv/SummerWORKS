@@ -5,7 +5,7 @@ void PlayerScene::initScene(){
     backgroundImage = new QLabel(parentWidget);
     icons = new QLabel[3];
 
-    QPixmap tempTexture(":/GameSceneBack.png");
+    QPixmap tempTexture(":/PlayerBack.jpg");
     backgroundImage->setPixmap(tempTexture);
     backgroundImage->setScaledContents(true);
     backgroundImage->setGeometry(0, 0, screenSize.width(), screenSize.height());
@@ -50,17 +50,16 @@ void PlayerScene::show(){
 }
 
 void PlayerScene::buttonCustomization(){
-    const int COUNT_OF_MAINBUTTONS = 5;
     int size = objs.size();
 
+    connect(objs[size-5], SIGNAL(clicked(bool)), this, SLOT(goToPlayerScene()));
     connect(objs[size-4], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
+    connect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
     //conect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
     //...
     //...
 
-    for(int i = 1; i <= COUNT_OF_MAINBUTTONS; i++)
-        objs[size-i]->setEnabled((i == 5 ? false : true));
-
+    objs[size-5]->setEnabled(false);
 }
 
 
