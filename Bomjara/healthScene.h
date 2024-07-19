@@ -6,17 +6,15 @@
 class HealthScene : public Scene{
     Q_OBJECT
 private:
-    QLabel* icons;
-    QLabel* backgroundImage;
-    SceneManager* sceneManager;
+    QLabel* icons = nullptr;
+    QLabel* backgroundImage = nullptr;
+    SceneManager* sceneManager = nullptr;
 
 public:
     HealthScene() : Scene() {
-        icons = nullptr; backgroundImage = nullptr;
     }
 
     HealthScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
-        icons = nullptr; backgroundImage = nullptr;
         Scene::parentWidget = parent;
         this->sceneManager = sceneManager;
         Scene::screenSize = screenSize;

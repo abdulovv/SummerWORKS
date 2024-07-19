@@ -6,12 +6,11 @@
 class MainMenuScene : public Scene{
     Q_OBJECT
 private:
-    QLabel* backgroundImage;
+    QLabel* backgroundImage = nullptr;
     SceneManager* scenes;
 public:
-    MainMenuScene() : Scene() { backgroundImage = nullptr; }
+    MainMenuScene() : Scene() { }
     MainMenuScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
-        backgroundImage = nullptr;
         Scene::parentWidget = parent;
         scenes = sceneManager;
         Scene::screenSize = screenSize;

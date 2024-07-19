@@ -6,17 +6,15 @@
 class MoneyScene : public Scene{
     Q_OBJECT
 private:
-    QLabel* icons;
-    QLabel* backgroundImage;
-    SceneManager* sceneManager;
+    QLabel* icons = nullptr;
+    QLabel* backgroundImage = nullptr;
+    SceneManager* sceneManager = nullptr;
 
 public:
     MoneyScene() : Scene() {
-        icons = nullptr; backgroundImage = nullptr;
     }
 
     MoneyScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
-        icons = nullptr; backgroundImage = nullptr;
         Scene::parentWidget = parent;
         this->sceneManager = sceneManager;
         Scene::screenSize = screenSize;

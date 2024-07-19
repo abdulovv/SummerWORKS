@@ -100,32 +100,8 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Images\Food.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\Images\FoodBack.jpg">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\Images\HealthBack.jpg">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\Images\Heart.png">
-      <Filter>Resource Files</Filter>
-    </None>
     <QtRcc Include="..\Images\Images.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <None Include="..\Images\MoneyBack.jpg">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\Images\PlayerBack.jpg">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\Images\Sleep.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\Images\StartBack.jpg">
-      <Filter>Resource Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

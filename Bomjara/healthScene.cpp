@@ -3,7 +3,6 @@
 
 void HealthScene::initScene(){
     QPixmap money = QPixmap(":/HealthBack.jpg");
-
     backgroundImage = new QLabel(parentWidget);
     backgroundImage->setPixmap(money);
     backgroundImage->setScaledContents(true);
@@ -32,15 +31,14 @@ void HealthScene::show(){
 void HealthScene::buttonCustomization(){
     int size = objs.size();
 
-    connect(objs[size-5], SIGNAL(clicked(bool)), this, SLOT(goToPlayerScene()));
-    connect(objs[size-4], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
-    connect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
+    connect(objs[size-7], SIGNAL(clicked(bool)), this, SLOT(goToPlayerScene()));
+    connect(objs[size-6], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
 
     //conect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
     //...
     //...
 
-    objs[size-3]->setEnabled(false);
+    objs[size-5]->setEnabled(false);
 }
 
 

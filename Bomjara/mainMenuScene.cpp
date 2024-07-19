@@ -4,7 +4,7 @@
 #include "mainMenuScene.h"
 
 void MainMenuScene::initScene(){
-    QPixmap bomj = QPixmap(":/StartBack.jpg");
+    QPixmap bomj = QPixmap(":/MenuBack.png");
 
     backgroundImage = new QLabel(parentWidget);
     backgroundImage->setPixmap(bomj);

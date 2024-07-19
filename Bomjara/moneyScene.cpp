@@ -2,7 +2,7 @@
 #include "moneyScene.h"
 
 void MoneyScene::initScene(){
-    QPixmap money = QPixmap(":/MoneyBack.jpg");
+    QPixmap money = QPixmap(":/MoneyBack.png");
 
     backgroundImage = new QLabel(parentWidget);
     backgroundImage->setPixmap(money);
@@ -32,14 +32,13 @@ void MoneyScene::show(){
 void MoneyScene::buttonCustomization(){
     int size = objs.size();
 
-    connect(objs[size-5], SIGNAL(clicked(bool)), this, SLOT(goToPlayerScene()));
-    connect(objs[size-4], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
-    connect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
+    connect(objs[size-7], SIGNAL(clicked(bool)), this, SLOT(goToPlayerScene()));
+    connect(objs[size-5], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
     //conect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
     //...
     //...
 
-    objs[size-4]->setEnabled(false);
+    objs[size-6]->setEnabled(false);
 
 }
 

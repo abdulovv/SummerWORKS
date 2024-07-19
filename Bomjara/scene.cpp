@@ -14,7 +14,9 @@ void Scene::addMainButtons(){
     buttons.push_back( new QPushButton("MONEY", parentWidget));
     buttons.push_back( new QPushButton("HEALTH", parentWidget));
     buttons.push_back( new QPushButton("HAPPINNES", parentWidget));
-    buttons.push_back( new QPushButton("BUSINESS", parentWidget));
+    buttons.push_back(new QPushButton("BUSINESS", parentWidget));
+    buttons.push_back(new QPushButton("CASINO", parentWidget));
+    buttons.push_back( new QPushButton("PROPERTYES", parentWidget));
 
     int countOfButtons = buttons.size();
 
@@ -31,4 +33,7 @@ void Scene::addMainButtons(){
         objs.push_back(currentButton);
         currentButton->show();
     }
+
+
+
 }

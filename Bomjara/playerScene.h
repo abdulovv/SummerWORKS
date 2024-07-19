@@ -8,16 +8,14 @@
 class PlayerScene : public Scene{
     Q_OBJECT
 private:
-    QLabel* icons;
-    QLabel* backgroundImage;
-    SceneManager* sceneManager;
+    QLabel* icons = nullptr, *horizontalBars, *horizontalBarsFrames;
+    QLabel* backgroundImage = nullptr;
+    SceneManager* sceneManager = nullptr;
 
 public:
     PlayerScene() : Scene() {
-        icons = nullptr; backgroundImage = nullptr;
     }
     PlayerScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
-        icons = nullptr; backgroundImage = nullptr;
         Scene::parentWidget = parent;
         this->sceneManager = sceneManager;
         Scene::screenSize = screenSize;
@@ -33,6 +31,9 @@ public:
 
     }
 public slots:
+    void update();
+
+
     void goToMenuScene() {
         sceneManager->goToScene(0);
     }

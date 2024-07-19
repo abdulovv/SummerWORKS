@@ -232,15 +232,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Images\Food.png" />
-    <None Include="..\Images\FoodBack.jpg" />
-    <None Include="..\Images\HealthBack.jpg" />
-    <None Include="..\Images\Heart.png" />
     <QtRcc Include="..\Images\Images.qrc" />
-    <None Include="..\Images\MoneyBack.jpg" />
-    <None Include="..\Images\PlayerBack.jpg" />
-    <None Include="..\Images\Sleep.png" />
-    <None Include="..\Images\StartBack.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />
