@@ -33,7 +33,6 @@ public:
 public slots:
     void update();
 
-
     void goToMenuScene() {
         sceneManager->goToScene(0);
     }
@@ -48,6 +47,10 @@ public slots:
 
     void goToHealthScene(){
         sceneManager->goToScene(3);
+    }
+
+    void goToHappinnesScene(){
+        sceneManager->goToScene(4);
     }
 };
 

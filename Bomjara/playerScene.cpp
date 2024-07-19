@@ -86,8 +86,10 @@ void PlayerScene::show(){
 void PlayerScene::buttonCustomization(){
     int size = objs.size();
 
+    connect(objs[size-7], SIGNAL(clicked(bool)), this, SLOT(goToPlayerScene()));
     connect(objs[size-6], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
-    connect(objs[size-5], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
+    connect(objs[size-5], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
+    connect(objs[size-4], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
     //conect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
     //...
     //...

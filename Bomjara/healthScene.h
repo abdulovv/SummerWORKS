@@ -46,6 +46,10 @@ public slots:
     void goToHealthScene(){
         sceneManager->goToScene(3);
     }
+
+    void goToHappinnesScene(){
+        sceneManager->goToScene(4);
+    }
 };
 
 

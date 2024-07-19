@@ -9,6 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    happinnesscene.cpp \
     healthScene.cpp \
     mainMenuScene.cpp \
     player.cpp \
@@ -20,6 +21,7 @@ SOURCES += \
     moneyScene.cpp
 
 HEADERS += \
+    happinnesscene.h \
     healthScene.h \
     mainMenuScene.h \
     player.h \
