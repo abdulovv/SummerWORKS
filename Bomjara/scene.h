@@ -27,6 +27,5 @@ public:
     void addMainButtons();
 
     ~Scene() {
-        
     }
 };

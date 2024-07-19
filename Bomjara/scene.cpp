@@ -2,8 +2,7 @@
 
 void Scene::clearScene(){
     for (int i = 0; i < objs.size(); i++){
-        //if(objs[i] != nullptr)
-            objs[i]->~QWidget();
+        objs[i]->~QWidget();
     }
     objs.clear();
 }
@@ -17,7 +16,7 @@ void Scene::addMainButtons(){
     buttons.push_back( new QPushButton("HAPPINNES", parentWidget));
     buttons.push_back(new QPushButton("BUSINESS", parentWidget));
     buttons.push_back(new QPushButton("CASINO", parentWidget));
-    buttons.push_back( new QPushButton("PROPERTIES", parentWidget));
+    buttons.push_back( new QPushButton("PROPERTYES", parentWidget));
 
     int countOfButtons = buttons.size();
 
@@ -34,4 +33,7 @@ void Scene::addMainButtons(){
         objs.push_back(currentButton);
         currentButton->show();
     }
+
+
+
 }

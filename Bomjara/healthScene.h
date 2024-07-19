@@ -1,39 +1,36 @@
 #pragma once
 
-#include <QPushButton>
 #include <QLabel>
-
 #include "SceneManager.h"
 
-class PlayerScene : public Scene{
+class HealthScene : public Scene{
     Q_OBJECT
 private:
-    QLabel* icons = nullptr, *horizontalBars, *horizontalBarsFrames;
+    QLabel* icons = nullptr;
     QLabel* backgroundImage = nullptr;
     SceneManager* sceneManager = nullptr;
 
 public:
-    PlayerScene() : Scene() {
+    HealthScene() : Scene() {
     }
-    PlayerScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
+
+    HealthScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
         Scene::parentWidget = parent;
         this->sceneManager = sceneManager;
         Scene::screenSize = screenSize;
         this->player = player;
     }
+
     void initScene() override;
     void hide() override;
     void show() override;
     void buttonCustomization() override;
 
-    ~PlayerScene() {
+    ~HealthScene() {
         clearScene();
-
     }
+
 public slots:
-    void update();
-
-
     void goToMenuScene() {
         sceneManager->goToScene(0);
     }
@@ -50,15 +47,6 @@ public slots:
         sceneManager->goToScene(3);
     }
 };
-
-
-
-
-
-
-
-
-
 
 
 

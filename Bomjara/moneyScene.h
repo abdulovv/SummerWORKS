@@ -6,17 +6,15 @@
 class MoneyScene : public Scene{
     Q_OBJECT
 private:
-    QLabel* icons;
-    QLabel* backgroundImage;
-    SceneManager* sceneManager;
+    QLabel* icons = nullptr;
+    QLabel* backgroundImage = nullptr;
+    SceneManager* sceneManager = nullptr;
 
 public:
     MoneyScene() : Scene() {
-        icons = nullptr; backgroundImage = nullptr;
     }
 
     MoneyScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
-        icons = nullptr; backgroundImage = nullptr;
         Scene::parentWidget = parent;
         this->sceneManager = sceneManager;
         Scene::screenSize = screenSize;
@@ -33,6 +31,10 @@ public:
     }
 
 public slots:
+    void goToMenuScene() {
+        sceneManager->goToScene(0);
+    }
+
     void goToPlayerScene(){
         sceneManager->goToScene(1);
     }
@@ -41,4 +43,7 @@ public slots:
         sceneManager->goToScene(2);
     }
 
+    void goToHealthScene(){
+        sceneManager->goToScene(3);
+    }
 };
