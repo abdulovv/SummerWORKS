@@ -37,45 +37,51 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SceneManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="gamescene.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainMenuScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="mainWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="menuScene.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="moneyScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="playerScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SceneManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <QtMoc Include="gamescene.h">
+    <QtMoc Include="mainMenuScene.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="mainWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <QtMoc Include="menuScene.h">
+    <QtMoc Include="moneyScene.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="playerScene.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="scene.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClInclude Include="Player.h">
+    <ClInclude Include="sceneManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -88,7 +94,13 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\Images\Bomj.png">
+      <Filter>Resource Files</Filter>
+    </None>
     <None Include="..\Images\Food.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Images\GameSceneBack.png">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="..\Images\Heart.png">
@@ -97,19 +109,11 @@
     <QtRcc Include="..\Images\Images.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+    <None Include="..\Images\Money.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
     <None Include="..\Images\Sleep.png">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\Images\bomj.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\Images\gameSceneBack.png">
-      <Filter>Resource Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="moneyScene.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
   </ItemGroup>
 </Project>

@@ -1,18 +1,14 @@
 <FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
   <FlowDocument.Tag><![CDATA[{
-  "timestamp": "2024-07-17 17:43:11",
+  "timestamp": "2024-07-19 11:01:23",
   "files": {
     "D:\\C++\\Qt-Projects\\SummerWORKS\\Bomjara\\Bomjara.vcxproj": {
-      "before": "7V15byJHFs/fK+13aFmTyN4RhzGDDzARBuygwccYPM5GSKjpLqAzfaUPH0lW2k+8n2FfdZ1NNxjbwMSTnkwGqHp1vFdV773fq+rq//33u+9qPz5YpnKHPN9w7OOt3XxxS0G25uiGPTneCoNx7mDrx/o//1G78pxfkRYoLTRWQzPoq94EBf7x1klomPqWArXY8GsaBO5RoeBrU2Spft4yNM/xnXGQ1xyroKM7ZDou8gqWP8LFCqVicW8LaleUWidA1pnnhK7SVUfIPN6iDTYde2xMQk8NoIM+IQbytFylY2tmqKPjrWtkItVHfz5UyqwElIlVVac0tUI8GXcG/6ldmWowdjyrDpXUCvwXyYcEIo+0wk90roVG4WRh1yKKlXesVuAyJiIHFmAwgseY2M9MZ6SaCUGfhYZe/+PwZK9RPmyUc5XD9ofcXrPUzh2U94q54kmp0q7s7RZb7cZ/uGyiMlRe144TXKgW8l1VQ/UTx/pV9dRaIZ5MaT+ix3vH0+ufgvLn3h1MyVqBJVGKW8PWnXufTEI2NJ/JJK7vFvPFfKlUKUUlF5Iuqu7csJ9Ro0SNK41kIIRLp7jlOl6g0JlzvPVu+3OTrqMrNZjuDM75cmm6bp6utLwLw+RvKYW0QYPppxt4ZRxv/aC6jl99tx2bkTt/vttm8tkhFMfH5FNaIyRhi628WA1s/fD10Hcc00dB/W63vCfWBUulEr0MAzcMWoYHKsPxHuseWZCDWmE2hxZo9LsgQsMyfkd+8zq0+4aFusbIU73HG1+doPoYJiWqFZ6ko/U1pzC/tAB5PejqhRPABywoOZERyvql/+iiesN1TUOL9M3MGoyyabmODZVbSDfUAKXxmZ5PC195hgWcEVmI1RBPxrSp8yi+bl8xBbgmWv8E0LHS++aHn3G5xsHvPE+JxJUHKRzT9+2HANnY+MMKCcDoC00jE79iks3XM2we96YIXAmuaJIc3vjIw5YC1tmskpTUWz4EMqYtpQ6jB8MP/G0yx99tP7syUnCHa+CCJBhZsROxSg2zFiFJuDALNPK85fjNyIkxEpuAeDzOVewncgnH6CIRgyYEZQnjr7xCvsmZGLdLUD1rDBbwOhsj1bPGiA+AvaMVc8fdLNECa7MzsR0PkZlM7eyKGw+8EOx1SjusC13D/gIeu4csZAequeLmqb8w0whr+/WTaXax1pnuJ1Wzhl4/keY2tI5JlGhsc1Mo0fTiCZTqGWGAA24zOJLYJ361Qk5RGMxrNJuO5RomouMM+qmhE09cNSkMBQUSeb8G8uv5aj4/IH8/BYNKfj9fGlj+nVYq7h4OK+WBQZDrclSDT8GtoWP4vTQ9QLGlaZugGKrUYa8WluuZ9cV3keYP7g17r5TDnFW/314kkR1w5RcJjMg5JtZLNwoB1HO/aEfenWqGqKn6gYJ/GrZp2Cj66geeoQU9+Bd8mSglmHoO9Gtyge6VHGAyy/B94w7loszhUHPN0Mf/R78RuEOeDUbGD9CD6ym5KASi5O73yrvFIvk8OITPcvnwsBJ9lj+wz336+0CRmaf9jnHMeBFs+j6yRibyuuCsQGe7DkEgkoVqzCPhlZwAoz7q2DhsEeEXhpqSGbxMtOykIqdRWYBMNmjvOZmisOGr0OkejL0xNrRb1bOx2OvlD/v71XK5sg+zoJVOA+KYkyOWVPtBQ9Gg/6TaOozwpN57tLVaIZnOe9RV7UkIeLEXQBEVggh+oGuuu7tfKySyeKHLEQ5tncJyxkZYEvlMhigAvQKoSmR8rj6AAJAO2FZO5sRXHnI9R0O+73hCOfn14W3nonV526veXHSal612dci+QMZeqTpsXzROuu1h++d++6LVbg0b3c7ZBXz2+pfXjbN2Fcgq5SpkndycVT/1hxeXQ/79ttM6a/d7w27nBGed3XTY1+bldTv6/v32nJ7B0MzJEUMjCPoOFhybaYl0SQzOxFOtlhqoJxCb49KOFHlqDi8K8QCQN4sH1M8h/mj0px5SdaS3ul0II8UJeMFe6LoeCB5mgxeE7olq28irE8OSnseL9qH64BZHDIZBw8dRzqBjRwEAUnx+Pq8CPNvT0DRxbMdn8omlcUq6cLo4QFqP/oXQSiyRkEI8Ysbw1LCDI4ZF6NQWcpGtQygXm5/W0aD5/j3YjRTTYxojyKhQi5KHn9UlyMGgLEuK7cmytG078B6vHMMOohL+FJnmXin6LqtUmbmYXpUz0qRCXV3ZNL/b/tRvda53BphzuZEkbaypZHZag0zR//Bb6ATVwnnjonPa7vVb7Su8pi+a/z4KIOZEQ3KR9SSoUbFBE9FkERakwcw8OB+WY+fATAUeRONoERbFJz8rEAWF/2ieG44gqAVh1L7zBdm04sqHww+jSnm3XNa08a4+prQm1aGU6l+sCqbEGp42NQLQmKHHukhpCJfPt35YKbQfkBZiCw8q5A4QAXyjK3VeLl8+bRtboebleavRP3VMvHdBi6bl8GJnCLQBDt/h2JRkAtlanZvPa0hDN4vd1mhrYRaULMQqGPoSu4Ku0Rh5sKRhRZNWUjJ430hwMdLN77YJKNkZUHc+jx7AuksUvNQ1mE0HR2F1rKRBnWD1SVtLz+NFe+Go9whuk1Wn07RWEEkS1ctUMthvoelq54ZuiuVGI+VYWUca+gYCWhMbW+TZHN4NMjHanud4zSnSvvjU40mm8yIxfQx7ErHfhKpWkDpWu0a+E3oaSkAFYSS/FY8ATHAKs2THSfg8ESCLhi3a7pvJeE0AIAEe6XjMmssYoPgWcJqOdVeG0r42SouGAbY3NorRIEzK/OYRKOu/K1xjsl8KrFHM+bXAGkCxvx4ym0FPcXiF9UuGsVaKsfRl0RA+QLEsLUZZSxMLmEWKZDgLn53IcFY6CuMe8FxARNDI3GxewQvxkgRUMijDQA4XahKykOBtMp0XiUGXvzKUWc5e0rDnywOaL4IvAs0AquBAQxxC7GkQXzhXbYhGe3mIQbPt7XTqCT4ch0s8TWqphr0cFQHiS9AiO4y6K5MmzgvGjw9GbFAINYfpqcxy6AeOFZ0WFdSC6Sk7/jGD0OAUmf8aYJiyhSc1yra5BpajDSFSrKOxn58ujH+ODBtT4whKLFrYsXFXYxFCkiTCFDhqB+GVFbOzKFgrdVZRci26vwDf2FYDfI02G3DSE9sNhLRShk+y5QBfpE0H8ktybkkC3XggP9jWg5LLaWT71MuNTfXO8Y7xliEk091GpXVUgIB14VOQA5CDN2d8iCVZFvJuL68/9go0jFWgu5SF2PApuQ4vXoi2WuG8Md9qLdCtykIUbI22KuUCC9uTCVNqZp1f3D6lAt5oyH25WoEe3MGlabE7CMQkINs8GlCsqOB4oC8OmiqfDT+Esxe9INQNZ1AqlkqYdAxBP4i/qubgc3MQHe0cnPfg6245Xy7m9/YOivtsy5qGfNfaFD70edpcS4uN8MEwDTiLOfjcW7IBZfvhoLIzoEFO5aMR+IPdIisMX8Xx40GoecETEppTXXp9g9BaaXU+eBNIX2mVsK5WzDPYzpdWetHun/7ca30clPMHXKJchpIlUHKOQrVJZAxEFrSOjwFHqlvo8nNYIWDYV6zLzy+bimh5CuFk0oxol7jCqzaJczkHE0dbBMtGv4nOiN1GYupeI41EBFeSQ5WEeGJa/i9spBOsfAUTHXecN2GLozHKLDE50MWOTYHVzizxOFjGzcgscWaJAf1OsSUW+l5YgbXZ4YS63ogVTrQ6h+cFFhjcEgGqqVWuSUkCZ+OIAfFX8xsE2nKrGdLOkDZG+AKaZ0g7Q9ovA540gpIh7beDtGVTMAu1pby12fiUMDC28lLTXwdsSx0A3hfY+hWHxRPeh9SRaQa34fg9QOZnRMQzuA33bsjWfX54PAt8Lx9jzwLf9B6PQRb4rs7dzknbQVgc+Ja1fRxvSzlrM8YJ47MZU5xoViDuONcLzPAzIDffUt8k4haNZoA7A9wZ4M62trOtbXju7lmmE/by+VZxbDMfP93+Vra24U4NeqIrCqjLG7wia20Wfh7cFp36KlvbMc4XWPm1g20hhwxrZ1g7fqhtORS9HFWGtTOsHZ34S4OI8+0cPyA171Tf86r7ex8yE0ZnZmtbZKzNDicgb4S0hfVZjxVOtCoBbd724nD38jibnJnfIMamDWb4OsPXGb7O8HWGr/+W+Jpagdm9bJK8Nns+B1fTzqzHmqe0KUcTOMdfEU9T/jMsnWHpDEtnD2zNPu42B61mx8jwGzIGbymqTRV9fMuaW6D1PKaVQLMYQ9OOrMfiJloU+JnzusDaJrHzMk9y00vKxJlx0WjsDL70nDZcw4pft6OfeuzB7tVezk5ulUi0wk66J+/CTHkIX3ZVNsJHYvBWwYUYi/hJhTc8GJthZN2jIYez3vJgbIKPFYyFeNwlTU/xCxzy2iiQRgNHwKN7IVuOFkLUFd4ExJP4lSgJNfOah1lTMNNiNbDuHcfFt8+z29vHcOUx3OnqD3S4j3Wgw4ULj/hCELA1s0/6rvuei8Rc0Uwld/JAnhfgN/bi6y1+s9QvCN/GwZ4lsB3TmTjRZe73WnR9s5I77UW/N3dr/C9wU8N5S1dycP34kfb+/S5cDU/vKLzdI7fIP+M2+dy9jm9Uh3I6vlRdybWVVw2oUvphElQvbroK/hTGhS+gDXlS7MIoJfZk98adKs72s5wqWLKpz9rJHgev+SUaaXbNrVghvWoGfQWVkKJT35hSuISHCs5bb0InpE7i9WiFlHHdpF5IaT6V+QW6ATTBSr2HhPFb7Dsk8R5WTew9AWmOEkeRkpO0Ug5ShPokD6zDDN6lcCAPzNp5eP4oLMEBsbW/edqwY8H1MX5035q4UOUtDcJmmHjlKDwd+cB3JYo1AkaRDMzg1HH0vGtPpCvs5pH+hODtIjO0qa6BqJ2OPshQWoIclCzCKev3CqgARBefvGrH08h9eII/HGrp4dsMT1TtCxYNfvsUrZiLS0obwQuBZ8jYAEhUPRMhNyLbPCJJUWlPXetDxaLk8Ls8FMI93HFnO7nfARZgFz4hank/Mb7ANmZ8r5tN6Bq85BLrJ/qRh76sxy1PESvT8nH+F9vfVa6KhMpJG6hsTcCFyQlJrWlFpFnN9ayHBEebXQ2J5tM4X7ASUl3BeWaLa9MlTBzTz0uQJlQ/K5O0xc97lTG8wwu/85BXJ72Gl725nL/MmLzwlNJGbxjDl4jW/w8=",
-      "after": "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"
+      "before": "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",
+      "after": "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"
     },
     "D:\\C++\\Qt-Projects\\SummerWORKS\\Bomjara\\Bomjara.vcxproj.filters": {
-      "before": "5VhNb5tAEM25Ui/9BcjHSgsY4w8KdmQwpD60ihpVvUSKMIwNKewSFlJLVf9Mf2nXn4uDE5M6WEprmYPX8N6+ebMzY/9+d3ZmnM/jSLiHlIYE9xtNUW4IgD3ih3jWb+TZFPUa54O3b4zLlNyClwnsdkz7jSDLkg+SRL0AYpeKceilhJJpJnoklny4h4gkkEoxneRh5EuKLLcaDEYQjHEG8UVK8mT5kS04YZRBKoyxF+U+9BsXgCF1M/AF9g3Q1WMCexlfcXiXw9gHnIXTENLBz27THvXYGw0tU0OqZWvINO0msmXZbMlNVbWbzV+GVHpwsZMlpD3PAC+004GXJLqne/O5HhNPD3QfpjrxIz1kVwpUN6TCzSsAQ1pt/j+Q8hFcn7l02BKtpWntVk9GPc0cIXUiq6jXs03UUdqOabcV23TMqpYEesBMCZglQayHmHmBPX1O/b+w4rXv/wtQkqceVHBgpI06tqIqyOkNHaR2bBWZmjNCPdm2TEuRzWHLrurAXerp7/eEm53GSzelsMyHwdSNKBhSYaXa+fgnRV1V9Ul1rG6r6zSR1R22kdrqdtBQ7nSQMmwpo25bGSqOU9UnXryKZStIbvWJm+kujRfXfI+Rh0rYK1ZjSLu9ptx6rMgiccK6DO8+Vx5rP59c7M4gFVlUC+1nXeuLEXkYPWmLuGkJ2wVOMXNjoAuamvBjN8Q1Qn8LsU9+1EUAOF9acDR+FffXMwe3Zsf9oOx9sYvs8X6Nt/U+pxmJzcUExCm4+8/G53BPMiz8X5tUG8XWproYVgfkWPQqSVAqAT5M8tk1GwJvuFd7K8GDSXVPQqyxt3aV600KEbgUTkXHtRWy5CTiTsFXULdN0NOIe2k6ftR55eDqkhRYm6diIHqTrFylDuYlR99mJl/ihMXcrIGyfBi4wif640F1G9ytts3CfmU1U600sTn6ZhyzoYLub2wvKepluQ6X0M8EFwYoUbxeCb12CPHFBM/KCbo795fq5gJwY95j4KwTp9nR6Na+tOcK1o6xgD5bQwH5kJSrCCA5WspjgZqQ+LY28EWDXM5Mput9P45lN8/Yj8nVH06DPw==",
-      "after": "5ZdLb5tAEMdzrtR+BuRDD5UWMMY2FOLIYEh9SJWHql4iVXgZG1LYJeySWqr63bv4EXCcyCSOD2ktc2AN/3n8dmfGHz8cHdkn8zSR7iBnMSXHrbastiQgmIYxmR23Cj5FRutk8P6dfZ7TG8BcEo8TdtyKOM8+KwrDEaQBk9MY55TRKZcxTZUQ7iChGeRKyiZFnISKpqqdlpCRJHvMIT3NaZEtbsWCHycccmlMcFKEcNw6BQJ5wCGUxC/Alq9J4mN/I/FtAeMQCI+nMeSD3/22NzLEFw1dx0S665nIcbw28lTV6ahtXffa7T+2svVi6clC0ptzIGXsbICzzMIWns+tlGIrskKYWjRMrFhcOTDLVmoPLwVsZen8fxDKFwhCQWk3ErNjmt2OoSLDdEZIn6g6MgzPQT2t6zteV/Mc32mKJLIiASUSSKLUiolgQbA1Z+ELULx1/y+B0SLH0IDAyBz1PE3XkG8MfaT3PB05pj9Chuq5jqupzrDjNSVwm2Pr0yPpFqfxPMgZLPbDYBokDGylttLsfPyTQV015aT7br/T99vI7Q+7SO/0e2io9npIG3a0Ub+rDTXfb8qpKl71shVlN9Yk4FbA0vKaPwJyVwl7w9HYymav2W49buLSNBNdpuo+V1i0n7OABDPIZZHVWvtZ1fp6Rh5mT7lXXLeE+4XKxCxIgZVmDqSfBjE5oPT3mIT016EMACkWCPbWb0J/NXNUaDboR9vs613kEfYrvTX7C35GcSVecX+u8kLoCdWS9grJq8reg3hN1eW2f7liA6gF4zR1yqmzynwIk2J2Lca6H1kOokAyOZLxhG/zfTB7biOu1Nc43GqpMphDAgGDQ5jcnYKvlNQKmixfj1NRzdi1T2koZ2S2HfZmH96KuhRch/uUuDgZOd9b/YJf4tqJqXxfhiCLceTZ3i80d7l/lQBke7v/VHImNL05mHhZVhZ1ywnwz/2sbO4tMdAt//QN/gI="
-    },
-    "D:\\C++\\Qt-Projects\\SummerWORKS\\Bomjara\\Bomjara.vcxproj.user": {
-      "before": "tZE9a8MwEIbTtdD/IETAyVDL/aCUYiVDCl06JG3obstnW0XWGekUUsgf7r+o7OItYzvee8f7PHDfF7NZvj52hh3AeY1W8ps04wyswkrbRvJA9fUjX6+uLvOtw09QxPaIxn9M95vgHFjiLLZYL3lL1D8J4VULXeHTTiuHHmtKFXaiggMY7MGJzpdBm0rcZtkdj+2MDf1xQ18vDkPPxLnwtSjBSL6jdyCKfp6zDdpK06iezBdxqnUTXDEky9N8sTUF1ei6ZSJl8gxlaE7Hh/vkFxmhO9pjUO3EHqExFufyXExno+I/CL6BgcLDXyqO0sPfVj8=",
-      "after": "tZHNSsNAFIXrVvAdhqGQdmEm/iAimXRRwY2LVov7ZHKTjMzkhpk7pUJf1XdxEulGXOrynns454PzeTab5auDNWwPzmvsJb9KM86gV1jrvpU8UHN5z1fFxXm+cfgOitgO0fi3k38dnIOeOIspvZe8IxoehPCqA1v61Grl0GNDqUIratiDwQGcsL4K2tTiOstueExnbMyPH/p4chgGJn4Tn8sKjORbegWiyOc5W2Nfa5rQk/kiXo1ugytHZXmcLzampAadXSZSJo9QhfZ4uLtNvitj6ZZ2GFR36i5y8VOZ2MTJMMH9A9oLGCg9/A1cPuKOWxVf"
+      "before": "5VjLbptAFO26UpfdW15WGsAYvwp2ZDCkXqSKalXdRIowXBtcmCEMpI6q/mK/qeMHHhwcPxoTKW0ULzKxz5lzz33h3+/fvNEu5mFQuYeY+gR3qzVBqlYAO8T18bRbTZMJalcveu/eatcxmYGTVNjbMe1WvSSJPooidTwIbSqEvhMTSiaJ4JBQdOEeAhJBLIZ0nPqBK8qSVK8ymEpFGyYQXsYkjZZ/sgPLDxKIK0PsBKkL3eolYIjtBNwK+w/Q1ccq7Ef7iv27FIYu4MSf+BD3frZq5qDNflHf0DtIMcwO0nWzhkxJ0utSTVHMWu2XJhY+uLjJEtKcJ4AX2mnPiSLVUZ35XA2Jo3qqCxOVuIHqs1cMVNXE3JtXAJq4uvx/IOUT2C5z6bAlnXqn06i3JdTu6AOkjCUFtdumjppyw9LNhmzqln6sJZ7qMVM8ZokXqj5mXmBHnVP3L6x47ff/ApSksQNHODDoDJqmrMjIavctpDRNBekda4Dakmnohizp/bp5rAN3saN+2BFuVo3XdkxhmQ+9iR1Q0MTcyXH18U+KGh3rk2IZrXrLqiGj1W8gpd5qor7UbCK5X5cHrYbcly3rWJ9488q3LS+aqWM7UW0aLl7zHUYeamGvWI0mbs+a4ugxAoOEEZsyfPqEto8FFs3c2Fn3+HwkHkdN3CBlo2BzsA19BTgdOWzClcjxzccu+VEWAcHwUKaCKLAfIC7p9ivwMq9PSzR3iX1lY3t6hgAdUR0pTUioLxa4p5LYK5ZJftAWy4RDbgqFH22zrNO4NAqeyOegCNb7K9ewTuSTwTOkvQHKJ/LJDDziezlWqXwO9EwSD85WKp9MkeEtr39EIhfbvAvjdHrDFv3bRcM/0JUfPZEUszrD34QzO+CCYwjApvCSlNsa902FMgSWzZdTxyt55+A+u7oX4OPq8pX+IvJKIOQNhxdETmEMbGmlgic446Q4UA7ax9E39cePOGG+AqPzUxZLnivcsxQcVJfhbrRlB7uVlUy10sSeCm+HIVtD6O497Zyizst1eFh8ZtXNQysINyuhNzoJZ0KEp8UE3X6KLUyHBWBm3lPgFiFuaeCXdgijxVqq28730ljY3hcnz0Y3dlUuN2GddCwnTrYhh3zIjatFgxdmUTlejwKA6HmB2s5i9sXL6svZ3h8=",
+      "after": "5Vhdj5pAFN3nJk36E4yPTQYQUaGgG0HY+mCzu6bpi0mDw1XYwgxlYOum6X/v+Akuu1Xr8rCtkQdGOHPvOWfunXHy7uLCuFxEYe0eEhZQ0q03BKleA4KpF5B5t56lM6TWL3tv3xjXCb0DnNb444R1636axh9EkWEfIpcJUYATyugsFTCNRA/uIaQxJGLEplkQeqIsSc06h6nVjGEK0VVCs3h1ywecIEwhqQ0JDjMPuvUrIJC4KXg1/guw9Ws1/jE+k+B7BkMPSBrMAkh6PzsNe6DyL+pbpoYUy9aQadoNZEuS2ZQaimI3Gr8MsfTiMpIVpL1IgSxzZz0cxzrW8WKhRxTrvu7BTKdeqAf8SoDphlh4eA1giOvg/4NUPoLrcZUOS6I1Na3VVCWkauYAKVNJQapqm6gttxzTbsm26ZjHSuLrPhfF55L4kR4QrgXB+oJ5fyHFa4//FhjNEgxHKDDQBm1bVmTkqH0HKW1bQabmDJAq2ZZpyZLZb9rHKvA9wfr7J+jmq/HaTRis/NCbuSEDQyyMHLc+/smkxsfqpDhWp9lxGsjq9FtIaXbaqC+120juN+VBpyX3Zcc5Vqe8eBXLlh/f6VM31V0WLa/FE0IeKmGvOBtD3O815dZjhRaNYt5l8u4TuQEROJuFtrOp8UUmHrMm7pC2rWA3sA89ApKNMe9wFc7xJSAe/VHVBJTAQ5UZxKH7AElF0a/BqwyfVSjuCnvkEnf+AgQdXh036Yji5+zrlxdIscWWFsgKbLs4nkDemPZFYXOrngVrhZu9ac7FxqSnwu6QniGiaM9Tsf9E8NqUZyHuQs9J2LPjqeA7vBUVh81oZSylkbk8TeQReDDN5hO+Xf8aJ8AbHxN8AU/TsjUfnSlK7iygb6UpDOUTJhCCy6CKKQ9T8In7OQ9FECbDiFcCNjFpdCfEZF5Oe39/Vcp6CbhN9zlwh1KvMvArN4LxsmCaLv5W2Sy8LiXp2eg36S0uVMOc/rUKAt8pnyzACvOQAqNlGRPu4mr0HYcA8Xnk7DuXHwPWfxX0fgM="
     }
   }
 }]]></FlowDocument.Tag>
@@ -25,7 +21,7 @@
       <Span TextDecorations="Underline">Project Format Conversion</Span>
     </Paragraph>
     <Paragraph Margin="12,8" FontSize="18">
-      <Span>Report generated on 2024-07-17 17:43:11</Span>
+      <Span>Report generated on 2024-07-19 11:01:23</Span>
     </Paragraph>
   </Section>
   <Section>
@@ -60,22 +56,6 @@
                         [Diff before/current]
                     </Hyperlink>
       <Hyperlink NavigateUri="file://D:\C++\Qt-Projects\SummerWORKS\Bomjara\Bomjara.vcxproj.filters?diff&amp;after&amp;current">
-                        [Diff after/current]
-                    </Hyperlink>
-      <LineBreak />
-    </Paragraph>
-    <Paragraph Margin="24,12,0,0">
-      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[D:\C++\Qt-Projects\SummerWORKS\Bomjara\Bomjara.vcxproj.user]]></Span>
-      <LineBreak />
-      <Hyperlink NavigateUri="file://D:\C++\Qt-Projects\SummerWORKS\Bomjara\Bomjara.vcxproj.user?before">[Before]</Hyperlink>
-      <Hyperlink NavigateUri="file://D:\C++\Qt-Projects\SummerWORKS\Bomjara\Bomjara.vcxproj.user?after">[After]</Hyperlink>
-      <Hyperlink NavigateUri="file://D:\C++\Qt-Projects\SummerWORKS\Bomjara\Bomjara.vcxproj.user?diff&amp;before&amp;after">
-                        [Diff before/after]
-                    </Hyperlink>
-      <Hyperlink NavigateUri="file://D:\C++\Qt-Projects\SummerWORKS\Bomjara\Bomjara.vcxproj.user?diff&amp;before&amp;current">
-                        [Diff before/current]
-                    </Hyperlink>
-      <Hyperlink NavigateUri="file://D:\C++\Qt-Projects\SummerWORKS\Bomjara\Bomjara.vcxproj.user?diff&amp;after&amp;current">
                         [Diff after/current]
                     </Hyperlink>
       <LineBreak />
@@ -167,24 +147,24 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gamescene.h;release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mainMenuScene.h;release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gamescene.h;release\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mainMenuScene.h;release\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">D:\C++\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[7.2\msvc2019_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" gamescene.h -o release\moc_gamescene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">D:\C++\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[7.2\msvc2019_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainMenuScene.h -o release\moc_mainMenuScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" gamescene.h -o release\moc_gamescene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainMenuScene.h -o release\moc_mainMenuScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -194,24 +174,24 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gamescene.h;debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mainMenuScene.h;debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gamescene.h;debug\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mainMenuScene.h;debug\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">D:\C++\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[7.2\msvc2019_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" gamescene.h -o debug\moc_gamescene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">D:\C++\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[7.2\msvc2019_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainMenuScene.h -o debug\moc_mainMenuScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" gamescene.h -o debug\moc_gamescene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainMenuScene.h -o debug\moc_mainMenuScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -275,24 +255,24 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">menuScene.h;release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">moneyScene.h;release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">menuScene.h;release\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">moneyScene.h;release\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">D:\C++\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[7.2\msvc2019_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" menuScene.h -o release\moc_menuScene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">D:\C++\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[7.2\msvc2019_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" moneyScene.h -o release\moc_moneyScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" menuScene.h -o release\moc_menuScene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" moneyScene.h -o release\moc_moneyScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -302,24 +282,78 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">menuScene.h;debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">moneyScene.h;debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">menuScene.h;debug\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">moneyScene.h;debug\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">D:\C++\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[7.2\msvc2019_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" menuScene.h -o debug\moc_menuScene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">D:\C++\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[7.2\msvc2019_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" moneyScene.h -o debug\moc_moneyScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" menuScene.h -o debug\moc_menuScene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" moneyScene.h -o debug\moc_moneyScene.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">playerScene.h;release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">playerScene.h;release\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">D:\C++\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[7.2\msvc2019_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" playerScene.h -o release\moc_playerScene.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" playerScene.h -o release\moc_playerScene.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">playerScene.h;debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">playerScene.h;debug\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">D:\C++\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[7.2\msvc2019_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-ID:/C++/Qt/6.7.2/msvc2019_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" playerScene.h -o debug\moc_playerScene.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" playerScene.h -o debug\moc_playerScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -437,12 +471,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Images\Images.qrc;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\rcc]]></Span><Span><![CDATA[.exe;..\Images\gameSceneBack.png;..\Images\Heart.png;..\Images\bomj.png;..\Images\Food.png;..\Images\Sleep.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Images\Images.qrc;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\rcc]]></Span><Span><![CDATA[.exe;..\Images\Heart.png;..\Images\Money.jpg;..\Images\Bomj.png;..\Images\Food.png;..\Images\Sleep.png;..\Images\GameSceneBack.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Images\Images.qrc;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\rcc]]></Span><Span><![CDATA[.exe;..\Images\gameSceneBack.png;..\Images\Heart.png;..\Images\bomj.png;..\Images\Food.png;..\Images\Sleep.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Images\Images.qrc;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\rcc]]></Span><Span><![CDATA[.exe;..\Images\Heart.png;..\Images\Money.jpg;..\Images\Bomj.png;..\Images\Food.png;..\Images\Sleep.png;..\Images\GameSceneBack.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -464,12 +498,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\Images\Images.qrc;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\rcc]]></Span><Span><![CDATA[.exe;..\Images\gameSceneBack.png;..\Images\Heart.png;..\Images\bomj.png;..\Images\Food.png;..\Images\Sleep.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\Images\Images.qrc;]]></Span><Span Background="LightCoral"><![CDATA[D:\C++\Qt\6.7.2\msvc2019_64\bin\rcc]]></Span><Span><![CDATA[.exe;..\Images\Heart.png;..\Images\Money.jpg;..\Images\Bomj.png;..\Images\Food.png;..\Images\Sleep.png;..\Images\GameSceneBack.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\Images\Images.qrc;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\rcc]]></Span><Span><![CDATA[.exe;..\Images\gameSceneBack.png;..\Images\Heart.png;..\Images\bomj.png;..\Images\Food.png;..\Images\Sleep.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\Images\Images.qrc;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\rcc]]></Span><Span><![CDATA[.exe;..\Images\Heart.png;..\Images\Money.jpg;..\Images\Bomj.png;..\Images\Food.png;..\Images\Sleep.png;..\Images\GameSceneBack.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -509,12 +543,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" gamescene.h -o release\moc_gamescene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainMenuScene.h -o release\moc_mainMenuScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" gamescene.h -o release\moc_gamescene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainMenuScene.h -o release\moc_mainMenuScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -524,12 +558,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" gamescene.h -o debug\moc_gamescene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainMenuScene.h -o debug\moc_mainMenuScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" gamescene.h -o debug\moc_gamescene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainMenuScene.h -o debug\moc_mainMenuScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -569,12 +603,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" menuScene.h -o release\moc_menuScene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" moneyScene.h -o release\moc_moneyScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" menuScene.h -o release\moc_menuScene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" moneyScene.h -o release\moc_moneyScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -584,12 +618,42 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" menuScene.h -o debug\moc_menuScene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" moneyScene.h -o debug\moc_moneyScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" menuScene.h -o debug\moc_menuScene.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" moneyScene.h -o debug\moc_moneyScene.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/C++/Qt-Projects/SummerWORKS/Bomjara/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" playerScene.h -o release\moc_playerScene.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" playerScene.h -o release\moc_playerScene.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ D:/C++/Qt-Projects/SummerWORKS/Bomjara/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -ID:/C++/Qt-Projects/SummerWORKS/Bomjara]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" playerScene.h -o debug\moc_playerScene.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" playerScene.h -o debug\moc_playerScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1083,19 +1147,19 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="gamescene.]]></Span><Span Background="LightCoral"><![CDATA[h">]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="mainMenuScene.]]></Span><Span Background="LightCoral"><![CDATA[h">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="gamescene.]]></Span><Span Background="LightGreen"><![CDATA[h" />]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="mainMenuScene.]]></Span><Span Background="LightGreen"><![CDATA[h" />]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalInputs]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gamescene]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[h;release\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalInputs]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mainMenuScene]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[h;release\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1107,31 +1171,19 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<Command]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" gamescene.h -o release\moc_gamescene.cpp</Command>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<Command]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainMenuScene.h -o release\moc_mainMenuScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[Include="menuScene]]></Span><Span><![CDATA[.]]></Span><Span Background="LightGreen"><![CDATA[h"]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[/>]]></Span>
-            </Paragraph>
-          </TableCell>
-        </TableRow>
-        <TableRow>
-          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
-            <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<Message]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MOC]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[gamescene.h</Message>]]></Span>
-            </Paragraph>
-          </TableCell>
-          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
-            <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[Include="scene.h"]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[/>]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[Include="moneyScene]]></Span><Span><![CDATA[.]]></Span><Span Background="LightGreen"><![CDATA[h"]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[/>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_gamescene.cpp;%(Outputs)</Outputs>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MOC mainMenuScene.h</Message>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1141,7 +1193,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gamescene.h;debug\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_mainMenuScene.cpp;%(Outputs)</Outputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1151,7 +1203,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" gamescene.h -o debug\moc_gamescene.cpp</Command>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mainMenuScene.h;debug\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1161,7 +1213,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MOC gamescene.h</Message>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainMenuScene.h -o debug\moc_mainMenuScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1171,7 +1223,17 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_gamescene.cpp;%(Outputs)</Outputs>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MOC mainMenuScene.h</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_mainMenuScene.cpp;%(Outputs)</Outputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1291,7 +1353,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[    <CustomBuild Include="menuScene.h">]]></Span>
+              <Span Background="LightCoral"><![CDATA[    <CustomBuild Include="moneyScene.h">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1301,7 +1363,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">menuScene.h;release\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">moneyScene.h;release\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1311,7 +1373,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" menuScene.h -o release\moc_menuScene.cpp</Command>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" moneyScene.h -o release\moc_moneyScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1321,7 +1383,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MOC menuScene.h</Message>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MOC moneyScene.h</Message>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1331,7 +1393,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_menuScene.cpp;%(Outputs)</Outputs>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_moneyScene.cpp;%(Outputs)</Outputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1341,7 +1403,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">menuScene.h;debug\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">moneyScene.h;debug\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1351,7 +1413,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" menuScene.h -o debug\moc_menuScene.cpp</Command>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" moneyScene.h -o debug\moc_moneyScene.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1361,7 +1423,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MOC menuScene.h</Message>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MOC moneyScene.h</Message>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1371,7 +1433,114 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_menuScene.cpp;%(Outputs)</Outputs>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_moneyScene.cpp;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="playerScene.]]></Span><Span Background="LightCoral"><![CDATA[h">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="playerScene.]]></Span><Span Background="LightGreen"><![CDATA[h" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalInputs]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">playerScene]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[h;release\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[Include="scene]]></Span><Span><![CDATA[.]]></Span><Span Background="LightGreen"><![CDATA[h" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" playerScene.h -o release\moc_playerScene.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MOC playerScene.h</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_playerScene.cpp;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">playerScene.h;debug\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" playerScene.h -o debug\moc_playerScene.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MOC playerScene.h</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_playerScene.cpp;%(Outputs)</Outputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1494,7 +1663,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_gamescene.cpp">]]></Span>
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_mainMenuScene.cpp">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1524,7 +1693,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_gamescene.cpp">]]></Span>
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_mainMenuScene.cpp">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1614,7 +1783,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_menuScene.cpp">]]></Span>
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_moneyScene.cpp">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1644,7 +1813,67 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_menuScene.cpp">]]></Span>
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_moneyScene.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_playerScene.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_playerScene.cpp">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1905,7 +2134,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Images\Images.qrc;$(QTDIR)\bin\rcc.exe;..\Images\gameSceneBack.png;..\Images\Heart.png;..\Images\bomj.png;..\Images\Food.png;..\Images\Sleep.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Images\Images.qrc;$(QTDIR)\bin\rcc.exe;..\Images\Heart.png;..\Images\Money.jpg;..\Images\Bomj.png;..\Images\Food.png;..\Images\Sleep.png;..\Images\GameSceneBack.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1945,7 +2174,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\Images\Images.qrc;$(QTDIR)\bin\rcc.exe;..\Images\gameSceneBack.png;..\Images\Heart.png;..\Images\bomj.png;..\Images\Food.png;..\Images\Sleep.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\Images\Images.qrc;$(QTDIR)\bin\rcc.exe;..\Images\Heart.png;..\Images\Money.jpg;..\Images\Bomj.png;..\Images\Food.png;..\Images\Sleep.png;..\Images\GameSceneBack.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -2013,12 +2242,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="gamescene.h">]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="mainMenuScene.h">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="gamescene.h">]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="mainMenuScene.h">]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2067,12 +2296,42 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="menuScene.h">]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="moneyScene.h">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="menuScene.h">]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="moneyScene.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[</CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[</QtMoc>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="playerScene.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="playerScene.h">]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2124,7 +2383,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_gamescene.cpp">]]></Span>
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_mainMenuScene.cpp">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -2154,7 +2413,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_gamescene.cpp">]]></Span>
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_mainMenuScene.cpp">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -2244,7 +2503,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_menuScene.cpp">]]></Span>
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_moneyScene.cpp">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -2274,7 +2533,67 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_menuScene.cpp">]]></Span>
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_moneyScene.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Filter>Generated Files</Filter>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_playerScene.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Filter>Generated Files</Filter>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_playerScene.cpp">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -3448,4 +3767,4 @@
     <Paragraph />
   </Section>
 </FlowDocument>
-<!--CcHY/F8wTjJbqsDGJGNIO0QTqu0uXwtTAuXy26Whw30=-->
+<!--saP7g3yFOdjGc2ex7y7U12n5v2M2d+jJHWY9VY5JXgg=-->
