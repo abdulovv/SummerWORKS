@@ -9,8 +9,7 @@ void MainMenuScene::initScene(){
     backgroundImage = new QLabel(parentWidget);
     backgroundImage->setPixmap(bomj);
     backgroundImage->setScaledContents(true);
-    backgroundImage->setGeometry(0, 0, screenSize.width(), screenSize.height());
-
+    backgroundImage->setGeometry(0, 0, sceneSize.width(), sceneSize.height());
     addMainButtons();
 }
 
@@ -36,16 +35,12 @@ void MainMenuScene::addMainButtons(){
     const int COUNT_OF_BUTTONS = 3;
 
     for(int i = 0; i < COUNT_OF_BUTTONS; i++){
-        objs[i]->setGeometry(screenSize.width() / 2.0 - 100, screenSize.height() / 2.0 - 150 + 80 * i, 200, 40);
+        objs[i]->setGeometry(sceneSize.width() / 2.0 - 100, sceneSize.height() / 2.0 - 150 + 80 * i, 200, 40);
         objs[i]->setStyleSheet("QPushButton { background-color: rgba(255, 255, 255, 200); border: none; color: black;}");
     }
 
-    connect(objs[0], SIGNAL(clicked(bool)), this, SLOT(goToGameScene()));
-    connect(objs[1], SIGNAL(clicked(bool)), this, SLOT(goToGameScene()));
+    connect(objs[0], SIGNAL(pressed()), this, SLOT(goToGameScene()));
+    connect(objs[1], SIGNAL(pressed()), this, SLOT(goToGameScene()));
     connect((QPushButton*)objs[2], &QPushButton::clicked, qApp, &QApplication::quit);
-}
-
-void MainMenuScene::buttonCustomization(){
-    //empty
 }
 

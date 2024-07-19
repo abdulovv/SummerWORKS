@@ -17,7 +17,7 @@ public:
 	Player() {
 		name = "Unnamed"; age = 18; level = 0;
 		score = 0; rubbles = 0; dollars = 0;
-		health = 10; hunger = 75; hapiness = 100; sleep = 40;
+		health = 50; hunger = 50; hapiness = 50; sleep = 50;
 	}
 	
 	void saveToFile(QString fileName = "playerData.ini");

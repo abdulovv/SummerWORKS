@@ -7,13 +7,13 @@ class MainMenuScene : public Scene{
     Q_OBJECT
 private:
     QLabel* backgroundImage = nullptr;
-    SceneManager* scenes;
+    SceneManager* sceneManager = nullptr;
 public:
     MainMenuScene() : Scene() { }
     MainMenuScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
         Scene::parentWidget = parent;
-        scenes = sceneManager;
-        Scene::screenSize = screenSize;
+        this->sceneManager = sceneManager;
+        Scene::sceneSize = screenSize;
         this->player = player;
     }
 
@@ -21,7 +21,6 @@ public:
     void initScene() override;
     void hide() override;
     void show() override;
-    void buttonCustomization() override;
 
     void addMainButtons();
 
@@ -30,6 +29,6 @@ public:
     }
 public slots:
     void goToGameScene() {
-        scenes->goToScene(1);
+        sceneManager->goToScene(1);
     }
 };

@@ -1,14 +1,8 @@
 <RCC>
     <qresource prefix="/">
         <file>Heart.png</file>
-        <file>Sleep.png</file>
-        <file>Food.png</file>
-        <file>HealthBar.png</file>
         <file>HealthBarFrame.png</file>
-        <file>HungryBar.png</file>
         <file>HungryBarFrame.png</file>
-        <file>SleepBarFrame.png</file>
-        <file>SleepBar.png</file>
         <file>Icon.png</file>
         <file>MenuBack.png</file>
         <file>BusinessBack.png</file>
@@ -17,5 +11,9 @@
         <file>Bomj.png</file>
         <file>CasinoBack.png</file>
         <file>HealthBack.png</file>
+        <file>HapinessBarFrame.png</file>
+        <file>Food.png</file>
+        <file>Hapiness.png</file>
+        <file>Frame.png</file>
     </qresource>
 </RCC>

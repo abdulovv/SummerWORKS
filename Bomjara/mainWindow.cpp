@@ -14,6 +14,7 @@ Window::Window(QWidget *parent)
     QPixmap iconTexture(":/Icon.png");
     QIcon icon(iconTexture);
     this->setWindowIcon(icon);
+    this->setWindowFlags(Qt::WindowMinimizeButtonHint);
 
     screenSize = QSize(QGuiApplication::primaryScreen()->size().width(),
                        QGuiApplication::primaryScreen()->size().height());
@@ -29,6 +30,7 @@ Window::Window(QWidget *parent)
     sceneManager.scenes.push_back(new PropertyScene(this, &sceneManager, player, screenSize));
 
     sceneManager.goToScene(0);
+    
 }
 
 Window::~Window() {

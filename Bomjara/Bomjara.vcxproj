@@ -221,7 +221,7 @@
     <QtMoc Include="playerScene.h" />
     <QtMoc Include="scene.h" />
     <QtMoc Include="propertyScene.h" />
-    <ClInclude Include="sceneManager.h" />
+    <QtMoc Include="sceneManager.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="debug\moc_predefs.h.cbt">

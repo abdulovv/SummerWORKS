@@ -6,14 +6,13 @@ void HealthScene::initScene(){
     backgroundImage = new QLabel(parentWidget);
     backgroundImage->setPixmap(money);
     backgroundImage->setScaledContents(true);
-    backgroundImage->setGeometry(0, 0, screenSize.width(), screenSize.height());
+    backgroundImage->setGeometry(0, 0, sceneSize.width(), sceneSize.height());
     objs.push_back(backgroundImage);
 
-    //...
-    //...
-    //last:
-    addMainButtons();
-    buttonCustomization();
+    addPlayerValuesHUD();
+
+    addMainButtons(static_cast<SceneManager*>(sceneManager)->getIndexOfScene(this));
+
 }
 
 void HealthScene::hide(){
@@ -27,19 +26,3 @@ void HealthScene::show(){
         objs[i]->show();
     }
 }
-
-void HealthScene::buttonCustomization(){
-    int size = objs.size();
-
-    connect(objs[size-7], SIGNAL(clicked(bool)), this, SLOT(goToPlayerScene()));
-    connect(objs[size-6], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
-    connect(objs[size-5], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
-    connect(objs[size-4], SIGNAL(clicked(bool)), this, SLOT(goToHappinnesScene()));
-    connect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToBusinessScene()));
-    connect(objs[size-2], SIGNAL(clicked(bool)), this, SLOT(goToCasinoScene()));
-    connect(objs[size-1], SIGNAL(clicked(bool)), this, SLOT(goToPropertyScene()));
-
-    objs[size-5]->setEnabled(false);
-}
-
-

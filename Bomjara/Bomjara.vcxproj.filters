@@ -90,15 +90,9 @@
     <ClInclude Include="player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <QtMoc Include="playerScene.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <QtMoc Include="scene.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClInclude Include="sceneManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <QtMoc Include="businessScene.h">
       <Filter>Header Files\ScenesHeaders</Filter>
     </QtMoc>
@@ -119,6 +113,12 @@
     </QtMoc>
     <QtMoc Include="propertyScene.h">
       <Filter>Header Files\ScenesHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="playerScene.h">
+      <Filter>Header Files\ScenesHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="sceneManager.h">
+      <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>

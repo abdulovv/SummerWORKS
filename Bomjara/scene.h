@@ -3,7 +3,7 @@
 #include <QWidget>
 #include <QObject>
 #include <QPushButton>
-
+#include "qlabel.h"
 #include "Player.h"
 
 class Scene : public QObject{
@@ -11,20 +11,26 @@ class Scene : public QObject{
 protected:
     
 public:
-    QSize screenSize;
+    QSize sceneSize;
     QWidget* parentWidget;
     QVector<QWidget*> objs;
     Player* player;
+    QObject* sceneManager;
 
     Scene() { parentWidget = nullptr; player = nullptr; }
 
     virtual void initScene() = 0;
     virtual void hide() = 0;
     virtual void show() = 0;
-    virtual void buttonCustomization() = 0;
+
 
     void clearScene();
-    void addMainButtons();
+    int getIndexOfObjectByName(QString name);
+    void addMainButtons(int currentSceneIndex);
+
+    void addPlayerValuesHUD();
+
+
 
     ~Scene() {
     }
