@@ -104,8 +104,8 @@ void Scene::addPlayerValuesHUD(QSize positionFromRTCorner, QSize iconsSize, QSiz
             positionFromRTCorner.height() + spacings.height() * i, iconsSize.width(), iconsSize.height());
         horizontalBars[i].setGeometry(icons[i].geometry().x() + spacings.width(), icons[i].geometry().y(),
             barsLenght, iconsSize.height());
-        horizontalBarsFrames[i].setGeometry(horizontalBars[i].geometry().x() - 5, horizontalBars[i].geometry().y() - 5,
-            horizontalBars[i].geometry().width() + 10, horizontalBars[i].geometry().height() + 10);
+        horizontalBarsFrames[i].setGeometry(horizontalBars[i].geometry().x() - 5, icons[i].geometry().y() - 5,
+            barsLenght + 10, iconsSize.height() + 10);
 
         objs.push_back(icons + i);
         objs.push_back(horizontalBars + i);
@@ -116,4 +116,8 @@ void Scene::addPlayerValuesHUD(QSize positionFromRTCorner, QSize iconsSize, QSiz
         (spacings.width() + iconsSize.width()) * 2 + barsLenght,
         3 * iconsSize.height() + 2 * (spacings.height()));
     objs.push_back(frame);
+
+    horizontalBars[0].setFixedWidth(barsLenght * player->health / 100.0f);
+    horizontalBars[1].setFixedWidth(barsLenght * player->hunger / 100.0f);
+    horizontalBars[2].setFixedWidth(barsLenght * player->hapiness / 100.0f);
 }

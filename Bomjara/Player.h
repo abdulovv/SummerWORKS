@@ -22,5 +22,6 @@ public:
 	
 	void saveToFile(QString fileName = "playerData.ini");
 	void loadFromFile(QString fileName = "playerData.ini");
+
 };
 

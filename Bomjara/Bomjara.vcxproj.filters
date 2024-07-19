@@ -82,6 +82,9 @@
     <ClCompile Include="propertyScene.cpp">
       <Filter>Source Files\Scenes</Filter>
     </ClCompile>
+    <ClCompile Include="InputController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="mainWindow.h">
@@ -118,6 +121,9 @@
       <Filter>Header Files\ScenesHeaders</Filter>
     </QtMoc>
     <QtMoc Include="sceneManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="InputController.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

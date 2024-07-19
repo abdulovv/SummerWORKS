@@ -11,27 +11,27 @@ private:
 
     QLabel* backgroundImage = nullptr;
    
-
+    
 public:
     PlayerScene() : Scene() {
     }
-    PlayerScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
-        Scene::parentWidget = parent;
-        this->sceneManager = sceneManager;
-        Scene::sceneSize = screenSize;
-        this->player = player;
+    PlayerScene(QWidget* parent, SceneManager* sceneManager, InputController* inputController,
+        Player* player, QSize screenSize = QSize(0, 0)) : Scene(parent, sceneManager, inputController, player, screenSize)
+    {
+
     }
     void initScene() override;
     void hide() override;
     void show() override;
-
+    
     ~PlayerScene() {
         clearScene();
 
     }
-public slots:
-    void update();
 
+private slots:
+    void update();
+    void keyPressedSlot(int key);
     
 };
 

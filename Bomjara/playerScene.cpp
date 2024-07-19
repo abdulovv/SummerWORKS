@@ -1,8 +1,10 @@
 #include "playerScene.h"
+#include "qevent.h"
 
 void PlayerScene::initScene(){
 
     backgroundImage = new QLabel(parentWidget);
+    
     
 
     QPixmap tempTexture(":/PlayerBack.png");
@@ -14,8 +16,8 @@ void PlayerScene::initScene(){
 
     addPlayerValuesHUD();
 
-    update();
 
+    connect(inputController, SIGNAL(keyPressed(int)), this, SLOT(keyPressedSlot(int)));
 
     QPushButton* exitButton = new QPushButton("return to menu", parentWidget);
     objs.push_back(exitButton);
@@ -23,7 +25,7 @@ void PlayerScene::initScene(){
     connect(objs[objs.indexOf(exitButton)], SIGNAL(pressed()), sceneManager, SLOT(goToMenuScene()));
 
     addMainButtons(static_cast<SceneManager*>(sceneManager)->getIndexOfScene(this));
-
+    
 }
 
 
@@ -41,11 +43,20 @@ void PlayerScene::show(){
 
 
 
+
 void PlayerScene::update() {
     int HUDindex = getIndexOfObjectByName(tr("First HUD Icon"));
     if (HUDindex != -1) {
-        objs[HUDindex + 1]->setFixedWidth(player->health * 2);
-        objs[HUDindex + 4]->setFixedWidth(player->hunger * 2);
-        objs[HUDindex + 7]->setFixedWidth(player->sleep * 2);
+        objs[HUDindex + 1]->setFixedWidth(objs[HUDindex + 2]->geometry().width() * player->health / 100.0f);
+        objs[HUDindex + 4]->setFixedWidth(objs[HUDindex + 2]->geometry().width() * player->hunger / 100.0f);
+        objs[HUDindex + 7]->setFixedWidth(objs[HUDindex + 2]->geometry().width() * player->hapiness / 100.0f);
+    }
+}
+void PlayerScene::keyPressedSlot(int key)
+{
+
+    if (key == Qt::Key_Up) {
+        this->clearScene();
+        update();
     }
 }

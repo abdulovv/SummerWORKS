@@ -7,14 +7,12 @@ class MainMenuScene : public Scene{
     Q_OBJECT
 private:
     QLabel* backgroundImage = nullptr;
-    SceneManager* sceneManager = nullptr;
 public:
     MainMenuScene() : Scene() { }
-    MainMenuScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
-        Scene::parentWidget = parent;
-        this->sceneManager = sceneManager;
-        Scene::sceneSize = screenSize;
-        this->player = player;
+    MainMenuScene(QWidget* parent, SceneManager* sceneManager, InputController* inputController,
+        Player* player, QSize screenSize = QSize(0, 0)) : Scene(parent, sceneManager, inputController, player, screenSize)
+    {
+
     }
 
 
@@ -29,6 +27,6 @@ public:
     }
 public slots:
     void goToGameScene() {
-        sceneManager->goToScene(1);
+        static_cast<SceneManager*>(sceneManager)->goToScene(1);
     }
 };

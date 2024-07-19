@@ -20,16 +20,18 @@ Window::Window(QWidget *parent)
                        QGuiApplication::primaryScreen()->size().height());
     player = new Player();
 
-    sceneManager.scenes.push_back(new MainMenuScene(this, &sceneManager, player, screenSize));
-    sceneManager.scenes.push_back(new PlayerScene(this, &sceneManager, player, screenSize));
-    sceneManager.scenes.push_back(new MoneyScene(this, &sceneManager, player, screenSize));
-    sceneManager.scenes.push_back(new HealthScene(this, &sceneManager, player, screenSize));
-    sceneManager.scenes.push_back(new HappinnesScene(this, &sceneManager, player, screenSize));
-    sceneManager.scenes.push_back(new BusinessScene(this, &sceneManager, player, screenSize));
-    sceneManager.scenes.push_back(new CasinoScene(this, &sceneManager, player, screenSize));
-    sceneManager.scenes.push_back(new PropertyScene(this, &sceneManager, player, screenSize));
+    this->installEventFilter(&inputController);
 
-    sceneManager.goToScene(0);
+    sceneManager.scenes.push_back(new MainMenuScene(this, &sceneManager, &inputController, player, screenSize));
+    sceneManager.scenes.push_back(new PlayerScene(this, &sceneManager, &inputController, player, screenSize));
+    sceneManager.scenes.push_back(new MoneyScene(this, &sceneManager, &inputController, player, screenSize));
+    sceneManager.scenes.push_back(new HealthScene(this, &sceneManager, &inputController, player, screenSize));
+    sceneManager.scenes.push_back(new HappinnesScene(this, &sceneManager, &inputController, player, screenSize));
+    sceneManager.scenes.push_back(new BusinessScene(this, &sceneManager, &inputController, player, screenSize));
+    sceneManager.scenes.push_back(new CasinoScene(this, &sceneManager, &inputController, player, screenSize));
+    sceneManager.scenes.push_back(new PropertyScene(this, &sceneManager, &inputController, player, screenSize));
+
+    sceneManager.goToScene(1);
     
 }
 

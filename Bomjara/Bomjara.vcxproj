@@ -199,6 +199,7 @@
     <ClCompile Include="casinoScene.cpp" />
     <ClCompile Include="happinnesscene.cpp" />
     <ClCompile Include="healthScene.cpp" />
+    <ClCompile Include="InputController.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainMenuScene.cpp" />
     <ClCompile Include="mainWindow.cpp" />
@@ -217,6 +218,7 @@
     <QtMoc Include="businessScene.h" />
     <QtMoc Include="casinoScene.h" />
     <QtMoc Include="happinnesscene.h" />
+    <QtMoc Include="InputController.h" />
     <ClInclude Include="player.h" />
     <QtMoc Include="playerScene.h" />
     <QtMoc Include="scene.h" />

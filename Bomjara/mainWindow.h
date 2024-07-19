@@ -6,6 +6,7 @@
 
 #include "SceneManager.h"
 #include "scene.h"
+#include "InputController.h"
 
 class Window : public QMainWindow{
     Q_OBJECT
@@ -18,6 +19,7 @@ private:
 
     QSize screenSize;
     SceneManager sceneManager;
+    InputController inputController;
 
 private slots:
 

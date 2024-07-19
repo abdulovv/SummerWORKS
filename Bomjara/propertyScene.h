@@ -13,11 +13,10 @@ private:
 public:
     PropertyScene() : Scene() {
     }
-    PropertyScene(QWidget* parent, SceneManager* sceneManager, Player* player, QSize screenSize = QSize(0, 0)) {
-        Scene::parentWidget = parent;
-        this->sceneManager = sceneManager;
-        Scene::sceneSize = screenSize;
-        this->player = player;
+    PropertyScene(QWidget* parent, SceneManager* sceneManager, InputController* inputController,
+        Player* player, QSize screenSize = QSize(0, 0)) : Scene(parent, sceneManager, inputController, player, screenSize)
+    {
+
     }
     void initScene() override;
     void hide() override;
