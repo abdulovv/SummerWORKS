@@ -13,7 +13,7 @@ void MoneyScene::initScene(){
     //...
     //...
     //last:
-    addMainButtons(objs);
+    addMainButtons();
     buttonCustomization();
 }
 

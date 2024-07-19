@@ -13,7 +13,7 @@ void HealthScene::initScene(){
     //...
     //...
     //last:
-    addMainButtons(objs);
+    addMainButtons();
     buttonCustomization();
 }
 

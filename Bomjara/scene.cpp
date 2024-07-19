@@ -4,11 +4,10 @@ void Scene::clearScene(){
     for (int i = 0; i < objs.size(); i++){
         objs[i]->~QWidget();
     }
-
     objs.clear();
 }
 
-void Scene::addMainButtons(QVector<QWidget *> &objs){
+void Scene::addMainButtons(){
     QVector<QPushButton*> buttons;
 
     buttons.push_back( new QPushButton("MY PLAYER", parentWidget));

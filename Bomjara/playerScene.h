@@ -29,8 +29,8 @@ public:
     void buttonCustomization() override;
 
     ~PlayerScene() {
-        if (icons != nullptr)
-            delete[] icons;
+        clearScene();
+
     }
 public slots:
     void goToMenuScene() {

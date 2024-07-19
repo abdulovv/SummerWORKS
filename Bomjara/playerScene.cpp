@@ -24,15 +24,20 @@ void PlayerScene::initScene(){
     icons[1].setPixmap(tempTexture);
     tempTexture.load(":/Sleep.png");
     icons[2].setPixmap(tempTexture);
-    icons = nullptr;
 
 
-    objs.push_back(new QPushButton("return to menu", parentWidget));
-    connect(objs[4], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));
+    QPushButton* exitButton = new QPushButton("return to menu", parentWidget);
+    objs.push_back(exitButton);
+
+
+
+
+
+    connect(objs[objs.indexOf(exitButton)], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));
 
     //last:
 
-    addMainButtons(objs);
+    addMainButtons();
     buttonCustomization();
 }
 

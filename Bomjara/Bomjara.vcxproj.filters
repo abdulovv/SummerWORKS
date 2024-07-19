@@ -37,6 +37,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="healthScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -63,6 +66,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="healthScene.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
     <QtMoc Include="mainMenuScene.h">
       <Filter>Header Files</Filter>
     </QtMoc>
@@ -94,13 +100,13 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Images\Bomj.png">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="..\Images\Food.png">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="..\Images\GameSceneBack.png">
+    <None Include="..\Images\FoodBack.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Images\HealthBack.jpg">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="..\Images\Heart.png">
@@ -109,10 +115,16 @@
     <QtRcc Include="..\Images\Images.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <None Include="..\Images\Money.jpg">
+    <None Include="..\Images\MoneyBack.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Images\PlayerBack.jpg">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="..\Images\Sleep.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Images\StartBack.jpg">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

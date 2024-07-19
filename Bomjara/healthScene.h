@@ -29,8 +29,7 @@ public:
     void buttonCustomization() override;
 
     ~HealthScene() {
-        if (icons != nullptr)
-            delete[] icons;
+        clearScene();
     }
 
 public slots:
