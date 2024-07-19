@@ -6,7 +6,7 @@ void PlayerScene::initScene(){
     icons = new QLabel[3]; horizontalBars = new QLabel[3];
     horizontalBarsFrames = new QLabel[3];
 
-    QPixmap tempTexture(":/MoneyBack.png");
+    QPixmap tempTexture(":/PlayerBack.png");
     //tempTexture.fill(QColor(155, 0, 0));
     
     backgroundImage->setPixmap(tempTexture);

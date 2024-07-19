@@ -195,6 +195,9 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="businessScene.cpp" />
+    <ClCompile Include="casinoScene.cpp" />
+    <ClCompile Include="happinnesscene.cpp" />
     <ClCompile Include="healthScene.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainMenuScene.cpp" />
@@ -202,6 +205,7 @@
     <ClCompile Include="moneyScene.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="playerScene.cpp" />
+    <ClCompile Include="propertyScene.cpp" />
     <ClCompile Include="scene.cpp" />
     <ClCompile Include="sceneManager.cpp" />
   </ItemGroup>
@@ -210,9 +214,13 @@
     <QtMoc Include="mainMenuScene.h" />
     <QtMoc Include="mainWindow.h" />
     <QtMoc Include="moneyScene.h" />
+    <QtMoc Include="businessScene.h" />
+    <QtMoc Include="casinoScene.h" />
+    <QtMoc Include="happinnesscene.h" />
     <ClInclude Include="player.h" />
     <QtMoc Include="playerScene.h" />
     <QtMoc Include="scene.h" />
+    <QtMoc Include="propertyScene.h" />
     <ClInclude Include="sceneManager.h" />
   </ItemGroup>
   <ItemGroup>

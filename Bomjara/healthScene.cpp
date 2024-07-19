@@ -2,7 +2,7 @@
 #include "healthScene.h"
 
 void HealthScene::initScene(){
-    QPixmap money = QPixmap(":/HealthBack.jpg");
+    QPixmap money = QPixmap(":/HealthBack.png");
     backgroundImage = new QLabel(parentWidget);
     backgroundImage->setPixmap(money);
     backgroundImage->setScaledContents(true);

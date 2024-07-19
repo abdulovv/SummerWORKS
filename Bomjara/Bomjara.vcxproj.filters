@@ -35,27 +35,21 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Header Files\ScenesHeaders">
+      <UniqueIdentifier>{3116a4b0-3a8b-4d96-87d5-d32b3d03d89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{23551670-da12-4bf3-811b-318bccb0df53}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="healthScene.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="mainMenuScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="mainWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="moneyScene.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="playerScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="scene.cpp">
@@ -64,18 +58,33 @@
     <ClCompile Include="sceneManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="businessScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="casinoScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="happinnesscene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="healthScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="mainMenuScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="moneyScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="playerScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="healthScene.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="mainMenuScene.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <QtMoc Include="mainWindow.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="moneyScene.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <ClInclude Include="player.h">
@@ -90,6 +99,27 @@
     <ClInclude Include="sceneManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <QtMoc Include="businessScene.h">
+      <Filter>Header Files\ScenesHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="casinoScene.h">
+      <Filter>Header Files\ScenesHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="happinnesscene.h">
+      <Filter>Header Files\ScenesHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="healthScene.h">
+      <Filter>Header Files\ScenesHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="mainMenuScene.h">
+      <Filter>Header Files\ScenesHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="moneyScene.h">
+      <Filter>Header Files\ScenesHeaders</Filter>
+    </QtMoc>
+    <QtMoc Include="propertyScene.h">
+      <Filter>Header Files\ScenesHeaders</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="debug\moc_predefs.h.cbt">

@@ -2,7 +2,7 @@
 #include "businessScene.h"
 
 void BusinessScene::initScene(){
-    QPixmap money = QPixmap(":/HealthBack.jpg");
+    QPixmap money = QPixmap(":/BusinessBack.png");
     backgroundImage = new QLabel(parentWidget);
     backgroundImage->setPixmap(money);
     backgroundImage->setScaledContents(true);

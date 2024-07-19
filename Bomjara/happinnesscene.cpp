@@ -2,7 +2,7 @@
 #include "happinnesScene.h"
 
 void HappinnesScene::initScene(){
-    QPixmap money = QPixmap(":/CasinoBack.png");
+    QPixmap money = QPixmap(":/StudyBack.png");
     backgroundImage = new QLabel(parentWidget);
     backgroundImage->setPixmap(money);
     backgroundImage->setScaledContents(true);

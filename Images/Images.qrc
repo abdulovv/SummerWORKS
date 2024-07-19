@@ -10,8 +10,12 @@
         <file>SleepBarFrame.png</file>
         <file>SleepBar.png</file>
         <file>Icon.png</file>
-        <file>MoneyBack.png</file>
-        <file>CasinoBack.png</file>
         <file>MenuBack.png</file>
+        <file>BusinessBack.png</file>
+        <file>MoneyBack.png</file>
+        <file>PlayerBack.png</file>
+        <file>Bomj.png</file>
+        <file>CasinoBack.png</file>
+        <file>HealthBack.png</file>
     </qresource>
 </RCC>
