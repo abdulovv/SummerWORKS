@@ -28,7 +28,8 @@ public:
     int getIndexOfObjectByName(QString name);
     void addMainButtons(int currentSceneIndex);
 
-    void addPlayerValuesHUD();
+    void addPlayerValuesHUD(QSize positionFromRTCorner = {350, 80}, 
+        QSize iconsSize = { 40, 40 }, QSize spacings = {50, 80}, float barsLenght = 200);
 
 
 

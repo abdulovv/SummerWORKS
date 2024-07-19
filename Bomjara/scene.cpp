@@ -57,11 +57,13 @@ void Scene::addMainButtons(int currentSceneIndex) {
    
 }
 
-void Scene::addPlayerValuesHUD()
+void Scene::addPlayerValuesHUD(QSize positionFromRTCorner, QSize iconsSize, QSize spacings, float barsLenght)
 {
-    QLabel *icons = new QLabel[3], *horizontalBars = new QLabel[3],
-        *horizontalBarsFrames = new QLabel[3];
+    QLabel* icons = new QLabel[3], * horizontalBars = new QLabel[3],
+        * horizontalBarsFrames = new QLabel[3], * frame = new QLabel(parentWidget);
     QPixmap tempTexture;
+
+
 
     icons[0].setObjectName(tr("First HUD Icon"));
 
@@ -86,6 +88,9 @@ void Scene::addPlayerValuesHUD()
     tempTexture.load(":/HapinessBarFrame.png");
     horizontalBarsFrames[2].setPixmap(tempTexture);
 
+    tempTexture.load(":/Frame.png");
+    frame->setPixmap(tempTexture);
+
     for (int i = 0; i < 3; i++) {
         icons[i].setParent(parentWidget);
         horizontalBars[i].setParent(parentWidget);
@@ -95,13 +100,20 @@ void Scene::addPlayerValuesHUD()
         horizontalBars[i].setScaledContents(true);
         horizontalBarsFrames[i].setScaledContents(true);
 
-        icons[i].setGeometry(sceneSize.width() - 350, 80 + 80 * i, 40, 40);
-        horizontalBars[i].setGeometry(icons[i].geometry().x() + 50, icons[i].geometry().y(), 200, 40);
-        horizontalBarsFrames[i].setGeometry(horizontalBars[i].geometry().x() - 5,
-            horizontalBars[i].geometry().y() - 5, 210, 50);
+        icons[i].setGeometry(sceneSize.width() - positionFromRTCorner.width(), 
+            positionFromRTCorner.height() + spacings.height() * i, iconsSize.width(), iconsSize.height());
+        horizontalBars[i].setGeometry(icons[i].geometry().x() + spacings.width(), icons[i].geometry().y(),
+            barsLenght, iconsSize.height());
+        horizontalBarsFrames[i].setGeometry(horizontalBars[i].geometry().x() - 5, horizontalBars[i].geometry().y() - 5,
+            horizontalBars[i].geometry().width() + 10, horizontalBars[i].geometry().height() + 10);
 
         objs.push_back(icons + i);
         objs.push_back(horizontalBars + i);
         objs.push_back(horizontalBarsFrames + i);
     }
+    frame->setScaledContents(true);
+    frame->setGeometry(icons[0].geometry().x() - iconsSize.width(), icons[0].geometry().y() - iconsSize.height(),
+        (spacings.width() + iconsSize.width()) * 2 + barsLenght,
+        3 * iconsSize.height() + 2 * (spacings.height()));
+    objs.push_back(frame);
 }
