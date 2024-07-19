@@ -24,9 +24,9 @@ public:
     virtual void buttonCustomization() = 0;
 
     void clearScene();
-    void addMainButtons(QVector<QWidget*> &objs);
+    void addMainButtons();
 
     ~Scene() {
-        clearScene();
+        
     }
 };

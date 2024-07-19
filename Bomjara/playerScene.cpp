@@ -1,4 +1,5 @@
 #include "playerScene.h"
+#include "qgridlayout.h"
 
 void PlayerScene::initScene(){
 
@@ -24,15 +25,22 @@ void PlayerScene::initScene(){
     icons[1].setPixmap(tempTexture);
     tempTexture.load(":/Sleep.png");
     icons[2].setPixmap(tempTexture);
-    icons = nullptr;
+   
+    
+    
+    QPushButton* exitButton = new QPushButton("return to menu", parentWidget);
+    objs.push_back(exitButton);
 
 
-    objs.push_back(new QPushButton("return to menu", parentWidget));
-    connect(objs[4], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));
 
+
+
+
+
+
+    connect(objs[objs.indexOf(exitButton)], SIGNAL(clicked(bool)), this, SLOT(goToMenuScene()));
     //last:
-
-    addMainButtons(objs);
+    addMainButtons();
     buttonCustomization();
 }
 
@@ -53,13 +61,12 @@ void PlayerScene::buttonCustomization(){
     const int COUNT_OF_MAINBUTTONS = 5;
     int size = objs.size();
 
-    connect(objs[size-4], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
+    connect(objs[size-6], SIGNAL(clicked(bool)), this, SLOT(goToMoneyScene()));
     //conect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
     //...
     //...
 
-    for(int i = 1; i <= COUNT_OF_MAINBUTTONS; i++)
-        objs[size-i]->setEnabled((i == 5 ? false : true));
+    objs[size - 7]->setEnabled(0);
 
 }
 

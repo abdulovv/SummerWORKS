@@ -2,20 +2,22 @@
 
 void Scene::clearScene(){
     for (int i = 0; i < objs.size(); i++){
-        objs[i]->~QWidget();
+        //if(objs[i] != nullptr)
+            objs[i]->~QWidget();
     }
-
     objs.clear();
 }
 
-void Scene::addMainButtons(QVector<QWidget *> &objs){
+void Scene::addMainButtons(){
     QVector<QPushButton*> buttons;
 
     buttons.push_back( new QPushButton("MY PLAYER", parentWidget));
     buttons.push_back( new QPushButton("MONEY", parentWidget));
     buttons.push_back( new QPushButton("HEALTH", parentWidget));
     buttons.push_back( new QPushButton("HAPPINNES", parentWidget));
-    buttons.push_back( new QPushButton("BUSINESS", parentWidget));
+    buttons.push_back(new QPushButton("BUSINESS", parentWidget));
+    buttons.push_back(new QPushButton("CASINO", parentWidget));
+    buttons.push_back( new QPushButton("PROPERTIES", parentWidget));
 
     int countOfButtons = buttons.size();
 

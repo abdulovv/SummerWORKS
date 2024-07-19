@@ -13,7 +13,7 @@ void MoneyScene::initScene(){
     //...
     //...
     //last:
-    addMainButtons(objs);
+    addMainButtons();
     buttonCustomization();
 }
 
@@ -30,16 +30,15 @@ void MoneyScene::show(){
 }
 
 void MoneyScene::buttonCustomization(){
-    const int COUNT_OF_MAINBUTTONS = 5;
     int size = objs.size();
 
-    connect(objs[size-5], SIGNAL(clicked(bool)), this, SLOT(goToPlayerScene()));
+    connect(objs[size-7], SIGNAL(clicked(bool)), this, SLOT(goToPlayerScene()));
     //conect(objs[size-3], SIGNAL(clicked(bool)), this, SLOT(goToHealthScene()));
     //...
     //...
 
-    for(int i = 1; i <= COUNT_OF_MAINBUTTONS; i++)
-        objs[size-i]->setEnabled((i == 4 ? false : true));
+    objs[size - 6]->setEnabled(0);
+
 
 }
 

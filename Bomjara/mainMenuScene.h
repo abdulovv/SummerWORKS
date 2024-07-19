@@ -24,9 +24,11 @@ public:
     void show() override;
     void buttonCustomization() override;
 
-    void addMainButtons(QVector<QWidget*> &objs);
+    void addMainButtons();
 
-    ~MainMenuScene() {}
+    ~MainMenuScene() {
+        clearScene();
+    }
 public slots:
     void goToGameScene() {
         scenes->goToScene(1);

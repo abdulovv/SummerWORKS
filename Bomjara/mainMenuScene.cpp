@@ -11,7 +11,7 @@ void MainMenuScene::initScene(){
     backgroundImage->setScaledContents(true);
     backgroundImage->setGeometry(0, 0, screenSize.width(), screenSize.height());
 
-    addMainButtons(objs);
+    addMainButtons();
 }
 
 void MainMenuScene::hide(){
@@ -26,7 +26,7 @@ void MainMenuScene::show(){
     }
 }
 
-void MainMenuScene::addMainButtons(QVector<QWidget *> &objs){
+void MainMenuScene::addMainButtons(){
     objs.push_back(new QPushButton("START GAME", parentWidget));
     objs.push_back(new QPushButton("CONTINUE GAME", parentWidget));
     objs.push_back(new  QPushButton("EXIT", parentWidget));
