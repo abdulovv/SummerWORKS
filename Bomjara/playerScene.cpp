@@ -17,7 +17,7 @@ void PlayerScene::initScene(){
     addPlayerValuesHUD();
 
 
-    connect(inputController, SIGNAL(keyPressed(int)), this, SLOT(keyPressedSlot(int)));
+    connect(inputController, &InputController::keyPressed, this, &PlayerScene::keyPressedSlot);
 
     QPushButton* exitButton = new QPushButton("return to menu", parentWidget);
     objs.push_back(exitButton);
@@ -54,9 +54,11 @@ void PlayerScene::update() {
 }
 void PlayerScene::keyPressedSlot(int key)
 {
-
-    if (key == Qt::Key_Up) {
-        this->clearScene();
-        update();
+    if (key == Qt::Key_W) {
+        player->health++;
     }
+    if (key == Qt::Key_S) {
+        player->health--;
+    }
+    update();
 }

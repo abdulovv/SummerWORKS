@@ -4,7 +4,6 @@ bool InputController::eventFilter(QObject* obj, QEvent* event)
 {
     if (event->type() == QEvent::KeyPress) {
         QKeyEvent* key = static_cast<QKeyEvent*>(event);
-        
         emit keyPressed(key->key());
         return true;
     }
@@ -12,5 +11,4 @@ bool InputController::eventFilter(QObject* obj, QEvent* event)
         return QObject::eventFilter(obj, event);
     }
     return false;
-    return 0;
 }
