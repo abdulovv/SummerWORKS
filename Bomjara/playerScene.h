@@ -9,8 +9,8 @@ class PlayerScene : public Scene{
     Q_OBJECT
 private:
 
-    QLabel* backgroundImage = nullptr;
-   
+    QLabel* backgroundImage = nullptr, *bomj = nullptr;
+    
     
 public:
     PlayerScene() : Scene() {

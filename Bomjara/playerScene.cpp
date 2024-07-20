@@ -4,7 +4,7 @@
 void PlayerScene::initScene(){
 
     backgroundImage = new QLabel(parentWidget);
-    
+    bomj = new QLabel(parentWidget);
     
 
     QPixmap tempTexture(":/PlayerBack.png");
@@ -13,6 +13,14 @@ void PlayerScene::initScene(){
     backgroundImage->setScaledContents(true);
     backgroundImage->setGeometry(0, 0, sceneSize.width(), sceneSize.height());
     objs.push_back(backgroundImage);
+
+    tempTexture.load(":/Bomj.png");
+    bomj->setPixmap(tempTexture);
+    bomj->setScaledContents(1);
+    bomj->setGeometry(sceneSize.width() * 0.3f, sceneSize.height() * 0.5f,
+        sceneSize.width() * 0.35f, sceneSize.height() * 0.45f);
+    objs.push_back(bomj);
+
 
     addPlayerValuesHUD();
 
@@ -54,10 +62,10 @@ void PlayerScene::update() {
 }
 void PlayerScene::keyPressedSlot(int key)
 {
-    if (key == Qt::Key_W) {
+    if (key == Qt::Key_Up) {
         player->health++;
     }
-    if (key == Qt::Key_S) {
+    if (key == Qt::Key_Down) {
         player->health--;
     }
     update();

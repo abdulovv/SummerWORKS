@@ -41,21 +41,18 @@
     <Filter Include="Source Files\Scenes">
       <UniqueIdentifier>{23551670-da12-4bf3-811b-318bccb0df53}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Controllers">
+      <UniqueIdentifier>{eccec2a7-7093-4673-9ed5-f5b429eb4a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers">
+      <UniqueIdentifier>{f99bfae2-13b9-4e22-8be5-0145bb212859}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="mainWindow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="scene.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="sceneManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="businessScene.cpp">
@@ -83,17 +80,20 @@
       <Filter>Source Files\Scenes</Filter>
     </ClCompile>
     <ClCompile Include="InputController.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="mainWindow.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <ClInclude Include="player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <QtMoc Include="scene.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="businessScene.h">
@@ -120,11 +120,14 @@
     <QtMoc Include="playerScene.h">
       <Filter>Header Files\ScenesHeaders</Filter>
     </QtMoc>
-    <QtMoc Include="sceneManager.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <QtMoc Include="InputController.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Controllers</Filter>
+    </QtMoc>
+    <QtMoc Include="sceneManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </QtMoc>
+    <QtMoc Include="scene.h">
+      <Filter>Header Files\ScenesHeaders</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
@@ -139,5 +142,10 @@
     <QtRcc Include="..\Images\Images.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

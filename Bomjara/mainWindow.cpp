@@ -31,7 +31,7 @@ Window::Window(QWidget *parent)
     sceneManager.scenes.push_back(new CasinoScene(this, &sceneManager, &inputController, player, screenSize));
     sceneManager.scenes.push_back(new PropertyScene(this, &sceneManager, &inputController, player, screenSize));
 
-    sceneManager.goToScene(1);
+    sceneManager.goToScene(0);
     
 }
 
