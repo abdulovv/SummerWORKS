@@ -9,7 +9,6 @@ class CasinoScene : public Scene{
 private:
     QLabel* icons = nullptr;
     QLabel* backgroundImage = nullptr;
-    //SceneManager* sceneManager = nullptr;
 
 public:
     CasinoScene() : Scene() {

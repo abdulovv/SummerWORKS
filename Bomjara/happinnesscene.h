@@ -9,7 +9,6 @@ class HappinnesScene : public Scene{
 private:
     QLabel* icons = nullptr;
     QLabel* backgroundImage = nullptr;
-    //SceneManager* sceneManager = nullptr;
 
 public:
     HappinnesScene() : Scene() {

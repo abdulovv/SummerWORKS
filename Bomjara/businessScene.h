@@ -9,7 +9,6 @@ class BusinessScene : public Scene{
 private:
     QLabel* icons = nullptr;
     QLabel* backgroundImage = nullptr;
-    //SceneManager* sceneManager = nullptr;
 
 public:
     BusinessScene() : Scene() {
@@ -17,7 +16,7 @@ public:
 
     BusinessScene(QWidget* parent, SceneManager* sceneManager, InputController* inputController,
         Player* player, QSize screenSize = QSize(0, 0)) : Scene(parent, sceneManager, inputController, player, screenSize)
-    {
+        {
         
     }
 

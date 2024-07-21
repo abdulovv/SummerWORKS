@@ -10,7 +10,6 @@ void BusinessScene::initScene(){
     objs.push_back(backgroundImage);
 
     addMainButtons(static_cast<SceneManager*>(sceneManager)->getIndexOfScene(this));
-
 }
 
 void BusinessScene::hide(){
