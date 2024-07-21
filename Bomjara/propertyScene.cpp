@@ -17,6 +17,7 @@ void PropertyScene::initScene(){
 
     connect(objs[objs.indexOf(exitButton)], SIGNAL(pressed()), sceneManager, SLOT(goToMenuScene()));
 
+    addPlayerValuesHUD();
 
     addMainButtons(static_cast<SceneManager*>(sceneManager)->getIndexOfScene(this));
     //buttonCustomization();

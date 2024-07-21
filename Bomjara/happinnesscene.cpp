@@ -9,8 +9,11 @@ void HappinnesScene::initScene(){
     backgroundImage->setGeometry(0, 0, sceneSize.width(), sceneSize.height());
     objs.push_back(backgroundImage);
 
+    addPlayerValuesHUD();
+
 
     addMainButtons(static_cast<SceneManager*>(sceneManager)->getIndexOfScene(this));
+
 
 }
 

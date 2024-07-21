@@ -15,7 +15,6 @@ public:
 
     }
 
-
     void initScene() override;
     void hide() override;
     void show() override;

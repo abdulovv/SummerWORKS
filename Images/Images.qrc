@@ -15,5 +15,11 @@
         <file>Food.png</file>
         <file>Hapiness.png</file>
         <file>Frame.png</file>
+        <file>ContinueGameButtonAfter.png</file>
+        <file>ContinueGameButtonBefore.png</file>
+        <file>ExitButtonAfter.png</file>
+        <file>ExitButtonBefore.png</file>
+        <file>StartGameButtonAfter.png</file>
+        <file>StartGameButtonBefore.png</file>
     </qresource>
 </RCC>
